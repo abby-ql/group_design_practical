@@ -39,7 +39,7 @@ def main() -> None:
         ))
 
     with get_session() as session:
-        existing_ids = set([i.id for i in session.exec(select(Item.id)).all()])
+        existing_ids = set(session.exec(select(Item.id)).all())
         to_add = [i for i in items if i.id not in existing_ids]
         for it in to_add:
             session.add(it)
