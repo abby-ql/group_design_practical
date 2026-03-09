@@ -26,6 +26,8 @@ It includes:
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+
+# Optional: only if using live NewsAPI headlines
 cp .env.example .env
 ```
 
@@ -108,3 +110,9 @@ scripts/        seed + demo scripts
 tests/          unit tests
 web/            simple dashboard (served as static)
 ```
+## 8) Development workflow
+
+- Create a feature branch per issue
+- Open a Pull Request
+- Ensure tests pass (CI)
+- Require at least 1 reviewer before merging
