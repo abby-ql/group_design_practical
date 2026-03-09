@@ -1,6 +1,6 @@
-# Sponsor Pack — Trend‑aware risk signals engine (student demonstrator)
+# Trend‑aware risk signals engine 
 
-This repo is a **sponsor pack / starter kit** for 2nd‑year CS students building an **explainable risk signals engine** + **UK trend alert subsystem** for a reputation & exposure manager.
+**explainable risk signals engine** + **UK trend alert subsystem** for a reputation & exposure manager.
 
 It includes:
 - A small **synthetic Items dataset** (CSV + JSONL) with **edge cases** (sarcasm, quoting, ambiguity, non‑political use of political terms, multi‑meaning trend terms).
@@ -31,7 +31,7 @@ cp .env.example .env
 
 ### Seed the local DB (SQLite)
 ```bash
-python scripts/seed_db.py
+python -m scripts.seed_db
 ```
 
 ### Run the API
