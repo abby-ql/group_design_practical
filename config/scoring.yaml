@@ -1,0 +1,45 @@
+# Transparent scoring weights and thresholds.
+# All values are deliberately simple so students can tune them and justify tradeoffs.
+
+thresholds:
+  low_max: 24
+  medium_max: 49
+  high_max: 74
+  # >= critical_min => "critical"
+  critical_min: 75
+
+weights:
+  sentiment:
+    negative_strong: 10     # compound <= -0.5
+    negative_mild: 5        # -0.5 < compound <= -0.2
+    positive_strong: -2     # compound >= 0.6 (slight reduction, never makes score negative)
+
+  toxicity:
+    per_term: 9             # per matched toxic term
+    all_caps_bonus: 4       # if lots of caps
+    punctuation_bonus: 2    # if repeated !!! or ??? patterns
+    max_contribution: 30
+
+  topics:
+    # topic weight is set per-topic in topics.yaml; this is a multiplier applied to that weight
+    topic_weight_multiplier: 1.0
+    max_contribution: 35
+
+  age:
+    # Small exposure bump: older items resurface in high‑stakes contexts.
+    max_contribution: 10
+    # linear ramp after this many days
+    grace_days: 30
+    # days to reach max
+    ramp_days: 3650         # ~10 years
+
+  trend_overlap:
+    base: 8
+    max_contribution: 25
+
+adjustments:
+  # Heuristic discounts when the engine thinks the item is quoting someone else.
+  quote_discount_multiplier: 0.75
+
+  # If we detect explicit sarcasm markers, we avoid over‑penalising sentiment negativity.
+  sarcasm_sentiment_multiplier: 0.6

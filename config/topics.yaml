@@ -1,0 +1,142 @@
+# Keyword/topic configuration for transparent topic tagging.
+# Keep this file small and editable; teams can extend it as part of the project.
+
+topics:
+  - name: politics
+    description: Elections, government, parties, policy debates.
+    weight: 8
+    sensitivity: 1.30
+    terms:
+      - election
+      - referendum
+      - brexit
+      - parliament
+      - mp
+      - prime minister
+      - manifesto
+      - tory
+      - labour
+      - conservative
+      - protest
+
+  - name: health_public
+    description: Public health / outbreaks / medical topics.
+    weight: 7
+    sensitivity: 1.25
+    terms:
+      - covid
+      - coronavirus
+      - lockdown
+      - vaccine
+      - booster
+      - nhs
+      - outbreak
+
+  - name: online_safety
+    description: Online harms, moderation, safety policy.
+    weight: 6
+    sensitivity: 1.20
+    terms:
+      - online safety
+      - age verification
+      - age ban
+      - content moderation
+      - deepfake
+      - doxx
+      - harassment
+
+  - name: legal
+    description: Legal issues, compliance, liability.
+    weight: 6
+    sensitivity: 1.20
+    terms:
+      - lawsuit
+      - court
+      - libel
+      - defamation
+      - nda
+      - injunction
+      - fraud
+
+  - name: finance
+    description: Money, investing, debt, taxes (non-advice).
+    weight: 5
+    sensitivity: 1.15
+    terms:
+      - tax
+      - hmrc
+      - bankruptcy
+      - debt
+      - crypto
+      - insider
+      - dividend
+
+  - name: violence
+    description: Violence or threats (including ambiguous phrases like "shoot" that can be benign).
+    weight: 10
+    sensitivity: 1.40
+    terms:
+      - kill
+      - murder
+      - bomb
+      - attack
+      - shoot
+      - gun
+      - knife
+
+  - name: drugs
+    description: Drugs and controlled substances (non-medical).
+    weight: 7
+    sensitivity: 1.30
+    terms:
+      - coke
+      - cocaine
+      - mdma
+      - weed
+      - ket
+      - pills
+
+  - name: adult
+    description: Adult content references (keep mild for the demo dataset).
+    weight: 6
+    sensitivity: 1.25
+    terms:
+      - nsfw
+      - adult content
+      - explicit
+
+# Optional: terms that are often *ambiguous* and benefit from "possible ambiguity" explanations.
+ambiguous_terms:
+  - term: corona
+    meanings:
+      - beer brand
+      - virus family / COVID context
+    disambiguation_hints:
+      - beer
+      - lime
+      - lager
+      - pandemic
+      - virus
+
+  - term: shoot
+    meanings:
+      - photography/film
+      - violence
+    disambiguation_hints:
+      - camera
+      - photos
+      - filming
+      - studio
+      - gun
+
+  - term: labour
+    meanings:
+      - political party
+      - childbirth
+      - work
+    disambiguation_hints:
+      - contractions
+      - midwife
+      - shift
+      - union
+      - party

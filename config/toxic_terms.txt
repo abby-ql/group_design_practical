@@ -1,0 +1,11 @@
+# Minimal list of toxic / rude terms for a rule-based demo.
+# Keep it mild and extend with care (avoid slur lists in student repos).
+
+idiot
+stupid
+moron
+jerk
+trash
+shut up
+hate you
+go away

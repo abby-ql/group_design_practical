@@ -1,0 +1,23 @@
+{
+  "snapshot_date": "2026-03-02",
+  "trends": [
+    {
+      "term": "ai chatbots",
+      "volume": 75,
+      "tone": 0.0,
+      "last_seen": "2026-03-02T09:00:00Z"
+    },
+    {
+      "term": "age verification",
+      "volume": 65,
+      "tone": 0.02,
+      "last_seen": "2026-03-02T09:00:00Z"
+    },
+    {
+      "term": "content moderation",
+      "volume": 55,
+      "tone": -0.05,
+      "last_seen": "2026-03-02T09:00:00Z"
+    }
+  ]
+}

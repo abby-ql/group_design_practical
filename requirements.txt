@@ -1,0 +1,12 @@
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+pydantic==2.6.4
+python-dotenv==1.0.1
+sqlmodel==0.0.16
+SQLAlchemy==2.0.29
+requests==2.31.0
+feedparser==6.0.11
+PyYAML==6.0.1
+vaderSentiment==3.3.2
+python-dateutil==2.9.0.post0
+pytest==8.1.1

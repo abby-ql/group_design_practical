@@ -1,0 +1,120 @@
+openapi: 3.0.3
+info:
+  title: Trend-aware Risk Signals Engine (Demo)
+  version: 0.1.0
+  description: >
+    Student demonstrator for transparent risk indicators and UK trend overlap alerts.
+servers:
+  - url: http://localhost:8000
+paths:
+  /health:
+    get:
+      summary: Health check
+      responses:
+        "200":
+          description: OK
+  /risk/score:
+    post:
+      summary: Score a single item
+      parameters:
+        - in: query
+          name: include_trends
+          schema: { type: boolean, default: true }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ItemIn"
+            examples:
+              simple:
+                value:
+                  text: "Summer vibes: corona with lime on the balcony 🍻"
+                  created_at: "2018-07-10T20:05:00Z"
+                  metadata: { synthetic: true }
+      responses:
+        "200":
+          description: RiskScore
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RiskScoreOut"
+  /risk/items:
+    get:
+      summary: List sample items with computed scores (demo convenience)
+      parameters:
+        - in: query
+          name: limit
+          schema: { type: integer, default: 50, minimum: 1, maximum: 500 }
+        - in: query
+          name: include_trends
+          schema: { type: boolean, default: true }
+      responses:
+        "200":
+          description: Items
+  /trends/current:
+    get:
+      summary: Get current trends stored in DB
+      parameters:
+        - in: query
+          name: limit
+          schema: { type: integer, default: 30, minimum: 1, maximum: 200 }
+      responses:
+        "200":
+          description: TrendTopic list
+  /trends/ingest:
+    post:
+      summary: Ingest headlines and update trend terms
+      parameters:
+        - in: query
+          name: top_k
+          schema: { type: integer, default: 20, minimum: 5, maximum: 100 }
+      responses:
+        "200":
+          description: Ingest result
+  /alerts/run:
+    post:
+      summary: Cross-match items against current trends and create alerts
+      parameters:
+        - in: query
+          name: limit_items
+          schema: { type: integer, default: 200, minimum: 1, maximum: 2000 }
+      responses:
+        "200":
+          description: Alerts created
+  /alerts:
+    get:
+      summary: List alerts
+      parameters:
+        - in: query
+          name: limit
+          schema: { type: integer, default: 50, minimum: 1, maximum: 500 }
+      responses:
+        "200":
+          description: Alert list
+components:
+  schemas:
+    ItemIn:
+      type: object
+      required: [text, created_at]
+      properties:
+        text: { type: string }
+        created_at: { type: string, format: date-time }
+        metadata: { type: object, additionalProperties: true }
+        platform: { type: string, nullable: true }
+        visibility: { type: string, nullable: true }
+        language: { type: string, default: "en" }
+    RiskScoreOut:
+      type: object
+      required: [total_score, bucket, reasons, decomposition]
+      properties:
+        total_score: { type: number }
+        bucket:
+          type: string
+          enum: [low, medium, high, critical]
+        reasons:
+          type: array
+          items: { type: object }
+        decomposition:
+          type: array
+          items: { type: object }
