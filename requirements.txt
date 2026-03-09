@@ -10,3 +10,4 @@ PyYAML==6.0.1
 vaderSentiment==3.3.2
 python-dateutil==2.9.0.post0
 pytest==8.1.1
+pandas==2.2.2

@@ -15,7 +15,7 @@ class Item(SQLModel, table=True):
     created_at: datetime
     text: str
     edge_case: Optional[str] = None
-    metadata: Dict[str, Any] = Field(default_factory=dict, sa_column=Column(JSON))
+    item_metadata: Dict[str, Any] = Field(default_factory=dict, sa_column=Column(JSON))
 
 
 class RiskScore(SQLModel, table=True):
@@ -52,7 +52,7 @@ class Alert(SQLModel, table=True):
 class ItemIn(SQLModel):
     text: str
     created_at: datetime
-    metadata: Dict[str, Any] = {}
+    item_metadata: Dict[str, Any] = {}
     platform: Optional[str] = None
     visibility: Optional[str] = None
     language: Optional[str] = "en"

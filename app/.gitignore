@@ -1,0 +1,31 @@
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# Environment variables
+.env
+*.env
+
+# Python cache (recursive)
+__pycache__/
+*/__pycache__/
+*.py[cod]
+
+# Pytest
+.pytest_cache/
+
+# Databases
+*.db
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+reputation_demo.db
