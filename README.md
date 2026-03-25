@@ -18,7 +18,7 @@ It includes:
 
 ### Prereqs
 - Python 3.10+
-- (Optional) Node not required
+- Node.js 22+
 - (Optional) A NewsAPI key (for /trends/ingest using live headlines)
 
 ### Setup
@@ -26,6 +26,12 @@ It includes:
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+
+# Setup frontend
+cd web
+npm i
+npm run build
+cd ..
 
 # Optional: only if using live NewsAPI headlines
 cp .env.example .env
