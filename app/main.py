@@ -24,11 +24,11 @@ app.include_router(trends_router, prefix="/trends", tags=["trends"])
 app.include_router(alerts_router, prefix="/alerts", tags=["alerts"])
 
 # Serve the tiny demo UI (static)
-app.mount("/static", StaticFiles(directory="web", html=True), name="static")
+app.mount("/static", StaticFiles(directory="web/dist", html=True), name="static")
 
 @app.get("/", include_in_schema=False)
 def index():
-    return FileResponse("web/index.html")
+    return FileResponse("web/dist/index.html")
 
 @app.get("/health", tags=["meta"])
 def health():

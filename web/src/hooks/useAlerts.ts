@@ -6,6 +6,7 @@ interface Alert {
   old_bucket?: string;
   new_bucket?: string;
   risk_delta?: number;
+  bucket_change: string; // Custom field for bucket changes
 }
 
 interface AlertsResponse {

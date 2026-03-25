@@ -1,19 +1,10 @@
 import { useState } from 'react'
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { Pill } from './ui'
 import { useItems, useTrends, useAlerts } from './hooks'
+import { Table, RadarChart } from './components'
+import { formatLastSeen, formatFullDate } from './utils'
 import './index.css'
-
-const queryClient = new QueryClient()
-
-interface Item {
-  created_at: string;
-  risk: {
-    bucket: string;
-    total_score: number;
-  };
-  text: string;
-}
+import type { Item } from './hooks/useItems'
 
 interface Alert {
   created_at: string;
@@ -21,6 +12,7 @@ interface Alert {
   old_bucket?: string;
   new_bucket?: string;
   risk_delta?: number;
+  bucket_change: string; // Custom field for bucket changes
 }
 
 function App() {
@@ -45,8 +37,7 @@ function App() {
   }
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <div className="font-sans m-5">
+    <div className="font-sans m-5">
         <h1 className="mb-1.5">Trend‑aware Risk Signals — Demo UI</h1>
         <div className="toolbar flex gap-2 items-center m-2.5 mb-4.5 flex-wrap">
           <button onClick={refreshAll} className="px-3 py-2 rounded-lg border border-gray-300 bg-white hover:bg-gray-50 cursor-pointer">Refresh</button>
@@ -59,37 +50,39 @@ function App() {
             <div className="text-gray-500 text-sm">
               {itemsData ? `${itemsData.count} items shown` : 'Loading...'}
             </div>
-            <table className="w-full border-collapse">
-              <thead>
-                <tr>
-                  <th className="border-b border-gray-200 p-1.5 align-top">When</th>
-                  <th className="border-b border-gray-200 p-1.5 align-top">Risk</th>
-                  <th className="border-b border-gray-200 p-1.5 align-top">Text</th>
-                </tr>
-              </thead>
-              <tbody>
-                {itemsData?.items.map((item, index) => (
-                  <tr 
-                    key={index} 
-                    onClick={() => setSelectedItem(item)}
-                    className="cursor-pointer hover:bg-gray-50"
-                  >
-                    <td className="border-b border-gray-200 p-1.5 align-top">
-                      {new Date(item.created_at).toISOString().slice(0,10)}
-                    </td>
-                    <td className="border-b border-gray-200 p-1.5 align-top">
-                      <Pill bucket={item.risk.bucket} />
-                      <span className="text-gray-500 text-sm">
-                        ({item.risk.total_score})
-                      </span>
-                    </td>
-                    <td className="border-b border-gray-200 p-1.5 align-top">
-                      {item.text}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+            <Table
+              data={itemsData?.items || []}
+              columns={[
+                {
+                  key: 'created_at',
+                  label: 'When',
+                  render: (value) => new Date(value as string).toISOString().slice(0, 10),
+                  sortable: true
+                },
+                {
+                  key: 'risk',
+                  label: 'Risk',
+                  render: (_value: unknown, item: Item) => {
+                    const risk = item.risk;
+                    return (
+                      <>
+                        <Pill bucket={risk.bucket} />
+                        <span className="text-gray-500 text-sm">
+                          ({risk.total_score})
+                        </span>
+                      </>
+                    );
+                  },
+                  sortable: (item: Item) => item.risk.total_score 
+                },
+                {
+                  key: 'text',
+                  label: 'Text',
+                  sortable: true
+                }
+              ]}
+              onRowClick={setSelectedItem}
+            />
           </div>
 
           <div className="card border border-gray-300 rounded-xl p-3 flex-1 min-w-80">
@@ -97,9 +90,13 @@ function App() {
             <div className="text-gray-500 text-sm">
               Click an item row to inspect its reasons + score decomposition.
             </div>
-            <pre className="whitespace-pre-wrap break-words text-xs bg-gray-50 p-2.5 rounded-lg my-0">
+            <pre className="whitespace-pre-wrap wrap-break-word text-xs bg-gray-50 p-2.5 rounded-lg my-0">
               {selectedItem ? JSON.stringify(selectedItem, null, 2) : '(select an item)'}
             </pre>
+            <RadarChart 
+              data={selectedItem?.risk?.decomposition} 
+              title="Risk Score Breakdown"
+            />
           </div>
         </div>
 
@@ -109,34 +106,36 @@ function App() {
             <div className="text-gray-500 text-sm">
               {trendsData ? `${trendsData.count} trends` : 'Loading...'}
             </div>
-            <table className="w-full border-collapse">
-              <thead>
-                <tr>
-                  <th className="border-b border-gray-200 p-1.5 align-top">Term</th>
-                  <th className="border-b border-gray-200 p-1.5 align-top">Vol</th>
-                  <th className="border-b border-gray-200 p-1.5 align-top">Tone</th>
-                  <th className="border-b border-gray-200 p-1.5 align-top">Last seen</th>
-                </tr>
-              </thead>
-              <tbody>
-                {trendsData?.trends.map((trend, index) => (
-                  <tr key={index}>
-                    <td className="border-b border-gray-200 p-1.5 align-top">
-                      {trend.term}
-                    </td>
-                    <td className="border-b border-gray-200 p-1.5 align-top">
-                      {trend.volume}
-                    </td>
-                    <td className="border-b border-gray-200 p-1.5 align-top">
-                      {trend.tone}
-                    </td>
-                    <td className="border-b border-gray-200 p-1.5 align-top">
-                      {new Date(trend.last_seen).toISOString().slice(0,19)}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+            <Table
+              data={trendsData?.trends || []}
+              columns={[
+                {
+                  key: 'term',
+                  label: 'Term',
+                  sortable: false
+                },
+                {
+                  key: 'volume',
+                  label: 'Vol',
+                  sortable: true
+                },
+                {
+                  key: 'tone',
+                  label: 'Tone',
+                  sortable: true
+                },
+                {
+                  key: 'last_seen',
+                  label: 'Last seen',
+                  render: (value) => (
+                    <div title={formatFullDate(value as string)}>
+                      {formatLastSeen(value as string)}
+                    </div>
+                  ),
+                  sortable: true
+                }
+              ]}
+            />
           </div>
 
           <div className="card border border-gray-300 rounded-xl p-3 flex-1 min-w-80">
@@ -144,45 +143,44 @@ function App() {
             <div className="text-gray-500 text-sm">
               {alertsData ? `${alertsData.count} alerts` : 'Loading...'}
             </div>
-            <table className="w-full border-collapse">
-              <thead>
-                <tr>
-                  <th className="border-b border-gray-200 p-1.5 align-top">When</th>
-                  <th className="border-b border-gray-200 p-1.5 align-top">Trend</th>
-                  <th className="border-b border-gray-200 p-1.5 align-top">Bucket</th>
-                  <th className="border-b border-gray-200 p-1.5 align-top">Δ</th>
-                </tr>
-              </thead>
-              <tbody>
-                {alertsData?.alerts.map((alert, index) => (
-                  <tr 
-                    key={index}
-                    onClick={() => setSelectedAlert(alert)}
-                    className="cursor-pointer hover:bg-gray-50"
-                  >
-                    <td className="border-b border-gray-200 p-1.5 align-top">
-                      {new Date(alert.created_at).toISOString().slice(0,19)}
-                    </td>
-                    <td className="border-b border-gray-200 p-1.5 align-top">
-                      {alert.trend_term}
-                    </td>
-                    <td className="border-b border-gray-200 p-1.5 align-top">
-                      <Pill bucket={alert.old_bucket || "low"} /> → <Pill bucket={alert.new_bucket || "low"} />
-                    </td>
-                    <td className="border-b border-gray-200 p-1.5 align-top">
-                      {alert.risk_delta ?? ""}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-            <pre className="whitespace-pre-wrap break-words text-xs bg-gray-50 p-2.5 rounded-lg my-2.5 mx-0">
+            <Table
+              data={alertsData?.alerts || []}
+              columns={[
+                {
+                  key: 'created_at',
+                  label: 'When',
+                  render: (value) => new Date(value as string).toISOString().slice(0, 19),
+                  sortable: true
+                },
+                {
+                  key: 'trend_term',
+                  label: 'Trend',
+                  sortable: true
+                },
+                {
+                  key: 'bucket_change',
+                  label: 'Bucket',
+                  render: (_value: unknown, item: Alert) => (
+                    <>
+                      <Pill bucket={item.old_bucket || "low"} /> → <Pill bucket={item.new_bucket || "low"} />
+                    </>
+                  ),
+                  sortable: false
+                },
+                {
+                  key: 'risk_delta',
+                  label: 'Δ',
+                  sortable: true
+                }
+              ]}
+              onRowClick={setSelectedAlert}
+            />
+            <pre className="whitespace-pre-wrap wrap-break-word text-xs bg-gray-50 p-2.5 rounded-lg my-2.5 mx-0">
               {selectedAlert ? JSON.stringify(selectedAlert, null, 2) : '(select an alert)'}
             </pre>
           </div>
         </div>
       </div>
-    </QueryClientProvider>
   )
 }
 

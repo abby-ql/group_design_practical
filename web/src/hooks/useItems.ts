@@ -1,11 +1,12 @@
 import { useQuery } from '@tanstack/react-query';
 
-interface Risk {
+export interface Risk {
   bucket: string;
   total_score: number;
+  decomposition: Array<{signal: string, contribution: number}>
 }
 
-interface Item {
+export interface Item {
   created_at: string;
   risk: Risk;
   text: string;
