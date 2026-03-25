@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+.pill {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid #ccc;
+  font-size: 12px;
+}
+
+.pill.low {
+  background: #f3fff3;
+}
+
+.pill.medium {
+  background: #fff8e6;
+}
+
+.pill.high {
+  background: #ffecec;
+}
+
+.pill.critical {
+  background: #ffe1e1;
+  border-color: #ff9f9f;
+}
+
+button {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f7f7f7;
+}
