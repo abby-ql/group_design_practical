@@ -76,7 +76,8 @@ def extract_trend_terms(headlines: List[str], top_k: int = 20) -> List[Dict]:
             bg = f"{a} {b}"
             bigram[bg] = bigram.get(bg, 0) + 1
 
-    # Merge by taking top terms from both, then sort overall by volume
+    # Merge by taking top terms from both, then sort deterministically:
+    # volume desc, then term asc.
     candidates: Dict[str, int] = {}
     for k, v in unigram.items():
         candidates[k] = max(candidates.get(k, 0), v)
@@ -85,14 +86,15 @@ def extract_trend_terms(headlines: List[str], top_k: int = 20) -> List[Dict]:
         if v >= 2:
             candidates[k] = max(candidates.get(k, 0), v)
 
-    top = sorted(candidates.items(), key=lambda kv: kv[1], reverse=True)[: top_k * 2]
-    # Basic filter: drop very generic terms
-    drop = {"today", "says", "year", "years", "people", "after", "before"}
-    top = [(t, v) for (t, v) in top if t not in drop]
+    drop_terms = _CFG.get("scoring", {}).get("trend_extraction", {}).get("drop_terms", [])
+    drop_set = {str(t).lower() for t in drop_terms}
+    sorted_candidates = sorted(candidates.items(), key=lambda kv: (-kv[1], kv[0]))
+    # Filter first so we return top_k non-generic results (unless candidates are insufficient).
+    top = [(t, v) for (t, v) in sorted_candidates if t not in drop_set][:top_k]
 
     # Compute tone per term (avg sentiment of headlines containing the term)
     results: List[Dict] = []
-    for term, vol in top[:top_k]:
+    for term, vol in top:
         scores = []
         for h in headlines:
             h_l = h.lower()
