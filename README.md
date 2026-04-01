@@ -47,9 +47,18 @@ python -m scripts.seed_db
 uvicorn app.main:app --reload
 ```
 
+
 Open:
 - API docs: http://127.0.0.1:8000/docs
 - Demo UI:   http://127.0.0.1:8000/
+
+### Run the daily alert demo (offline & deterministic)
+
+To simulate a 'newly risky today' pipeline end to end (seed → trends → cross-match → alerts) without any network dependency:
+
+```bash
+python -m scripts.run_daily_alerts --source snapshot
+```
 
 ---
 
@@ -101,10 +110,19 @@ See `data/EXTERNAL_DATASETS.md` for recommended open‑licensed alternatives and
 ---
 
 ## 6) Tests
+
+
+
+Run unit + integration tests:
+
 ```bash
 pytest -q
 ```
+Run integration tests alone
 
+```bash
+pytest -q -k integration
+```
 ---
 
 ## 7) Repo structure
