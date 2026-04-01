@@ -1,4 +1,4 @@
-import ReactECharts from 'echarts-for-react'
+import { Radar } from './Radar'
 
 interface RadarChartProps {
   data?: Array<{signal: string, contribution: number}>
@@ -10,70 +10,22 @@ export function RadarChart({ data, title = "Risk Score Decomposition" }: RadarCh
     return null
   }
 
-  const indicators = data.map(i => ({
-    name: i.signal,
-    max: Math.max(...data.map(j => j.contribution)) * 1.2,
+  // Transform data for Radar component: {signal, contribution} -> {name, max, value}
+  const maxContribution = Math.max(...data.map(i => i.contribution))
+  const radarData = data.map(item => ({
+    name: item.signal,
+    max: maxContribution * 1.2, // Add some padding
+    value: item.contribution
   }))
 
-  const option = {
-    title: {
-      text: title,
-      left: 'center',
-      textStyle: {
-        fontSize: 14,
-        fontWeight: 'normal'
-      }
-    },
-    tooltip: {
-      trigger: 'item'
-    },
-    radar: {
-      indicator: indicators,
-      shape: 'polygon',
-      splitNumber: 4,
-      axisName: {
-        color: '#666',
-        fontSize: 11
-      },
-      splitLine: {
-        lineStyle: {
-          color: '#e0e0e0'
-        }
-      },
-      splitArea: {
-        show: true,
-        areaStyle: {
-          color: ['rgba(114, 172, 209, 0.2)', 'rgba(114, 172, 209, 0.1)']
-        }
-      },
-      axisLine: {
-        lineStyle: {
-          color: '#ccc'
-        }
-      }
-    },
-    series: [{
-      type: 'radar',
-      data: [{
-        value: data.map(i => i.contribution),
-        name: 'Contribution',
-        itemStyle: {
-          color: '#5470c6'
-        },
-        areaStyle: {
-          color: 'rgba(84, 112, 198, 0.3)'
-        },
-        lineStyle: {
-          color: '#5470c6',
-          width: 2
-        }
-      }]
-    }]
-  }
-
   return (
-    <div style={{ width: '100%', height: '300px', marginTop: '16px' }}>
-      <ReactECharts option={option} style={{ height: '100%', width: '100%' }} />
+    <div className="w-full">
+      {title && (
+        <h3 className="text-center text-sm font-medium text-gray-700 mb-4">
+          {title}
+        </h3>
+      )}
+      <Radar data={radarData} />
     </div>
   )
 }
