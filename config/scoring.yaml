@@ -43,3 +43,16 @@ adjustments:
 
   # If we detect explicit sarcasm markers, we avoid over‑penalising sentiment negativity.
   sarcasm_sentiment_multiplier: 0.6
+
+# UK trend term extraction configuration (used by `app/core/trends.py`).
+trend_extraction:
+  # Obvious generic terms to exclude from candidate trend terms.
+  # These are simple and intended to be tuned as needed.
+  drop_terms:
+    - today
+    - says
+    - year
+    - years
+    - people
+    - after
+    - before
