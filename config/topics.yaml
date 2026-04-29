@@ -132,11 +132,25 @@ ambiguous_terms:
   - term: labour
     meanings:
       - political party
-      - childbirth
-      - work
+      - childbirth / physical work
     disambiguation_hints:
       - contractions
       - midwife
+      - hospital
+      - pain
+      - pains
+      - pregnant
       - shift
       - union
-      - party
+
+  - term: conservative
+    meanings:
+      - political party / right-wing ideology
+      - cautious or modest (as in "conservative estimate")
+    disambiguation_hints:
+      - estimate
+      - approach
+      - forecast
+      - assumption
+      - figure
+      - guess
