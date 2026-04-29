@@ -24,15 +24,3 @@
   background: #ffe1e1;
   border-color: #ff9f9f;
 }
-
-button {
-  padding: 8px 12px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  background: #fff;
-  cursor: pointer;
-}
-
-button:hover {
-  background: #f7f7f7;
-}
