@@ -105,6 +105,54 @@ topics:
       - adult content
       - explicit
 
+  - name: space_exploration
+    description: Space missions, moon landings, rockets, satellites, and related agencies.
+    weight: 6
+    sensitivity: 1.20
+    terms:
+      - moon
+      - lunar
+      - rocket
+      - nasa
+      - spacex
+      - satellite
+      - orbit
+      - astronaut
+      - artemis
+      - iss
+      - spacecraft
+      - moon landing
+      - space mission
+      - space race
+      - launch pad
+      - reentry
+
+  - name: conflict_war
+    description: Armed conflict, military operations, and geopolitical war references.
+    weight: 9
+    sensitivity: 1.35
+    terms:
+      - war
+      - warfare
+      - troops
+      - invasion
+      - military
+      - airstrike
+      - ceasefire
+      - nato
+      - frontline
+      - offensive
+      - combat
+      - casualties
+      - missile strike
+      - occupied territory
+      - conflict zone
+      - sanction
+      - warzone
+      - arms deal
+      - peace talks
+      - siege
+
 # Optional: terms that are often *ambiguous* and benefit from "possible ambiguity" explanations.
 ambiguous_terms:
   - term: corona
@@ -132,25 +180,34 @@ ambiguous_terms:
   - term: labour
     meanings:
       - political party
-      - childbirth / physical work
+      - childbirth
+      - work
     disambiguation_hints:
       - contractions
       - midwife
-      - hospital
-      - pain
-      - pains
-      - pregnant
       - shift
       - union
+      - party
 
-  - term: conservative
+  - term: moon
     meanings:
-      - political party / right-wing ideology
-      - cautious or modest (as in "conservative estimate")
+      - celestial body / space mission
+      - slang / informal gesture
     disambiguation_hints:
-      - estimate
-      - approach
-      - forecast
-      - assumption
-      - figure
-      - guess
+      - landing
+      - mission
+      - lunar
+      - nasa
+      - orbit
+
+  - term: war
+    meanings:
+      - armed conflict
+      - figurative use (e.g. "price war", "war on drugs")
+    disambiguation_hints:
+      - troops
+      - military
+      - invasion
+      - nato
+      - conflict
+      - frontline
