@@ -103,7 +103,7 @@ export function Radar({ data, formatter }: RadarChartProps): React.ReactNode {
 						const item = data[firstParam.dataIndex];
 						const percentage =
 							item.max > 0 ? Math.round((item.value / item.max) * 100) : 0;
-						return `${item.name}: ${item.value}/${item.max} (${percentage}%)`;
+						return `${item.name}: ${item.value.toFixed(1)}/${item.max.toFixed(1)} (${percentage.toFixed(0)}%)`;
 					}
 					return "No data available";
 				}),

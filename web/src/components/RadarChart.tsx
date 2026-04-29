@@ -13,7 +13,7 @@ export function RadarChart({ data, title = "Risk Score Decomposition" }: RadarCh
   // Transform data for Radar component: {signal, contribution} -> {name, max, value}
   const maxContribution = Math.max(...data.map(i => i.contribution))
   const radarData = data.map(item => ({
-    name: item.signal,
+    name: item.signal[0].toUpperCase() + item.signal.slice(1).replaceAll("_", " "),
     max: maxContribution * 1.2, // Add some padding
     value: item.contribution
   }))

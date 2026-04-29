@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { Pill } from './ui'
 import { useItems, useTrends, useAlerts } from './hooks'
-import { Table, RadarChart } from './components'
+import { Table } from './components'
+import { WhyFlaggedSection } from './components/WhyFlaggedSection'
 import { formatLastSeen, formatFullDate } from './utils'
 import './index.css'
 import type { Item } from './hooks/useItems'
@@ -45,7 +46,7 @@ function App() {
         </div>
 
         <div className="row flex gap-4 flex-wrap">
-          <div className="card border border-gray-300 rounded-xl p-3 flex-1 min-w-80">
+          <div className="card border border-gray-300 rounded-xl p-3 flex-1 min-w-80 max-h-screen overflow-y-scroll">
             <h3>Items</h3>
             <div className="text-gray-500 text-sm">
               {itemsData ? `${itemsData.count} items shown` : 'Loading...'}
@@ -85,19 +86,7 @@ function App() {
             />
           </div>
 
-          <div className="card border border-gray-300 rounded-xl p-3 flex-1 min-w-80">
-            <h3>Why flagged?</h3>
-            <div className="text-gray-500 text-sm">
-              Click an item row to inspect its reasons + score decomposition.
-            </div>
-            <pre className="whitespace-pre-wrap wrap-break-word text-xs bg-gray-50 p-2.5 rounded-lg my-0">
-              {selectedItem ? JSON.stringify(selectedItem, null, 2) : '(select an item)'}
-            </pre>
-            <RadarChart 
-              data={selectedItem?.risk?.decomposition} 
-              title="Risk Score Breakdown"
-            />
-          </div>
+          <WhyFlaggedSection selectedItem={selectedItem} />
         </div>
 
         <div className="row flex gap-4 flex-wrap mt-4">
