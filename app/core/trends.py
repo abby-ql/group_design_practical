@@ -43,6 +43,16 @@ def fetch_headlines() -> Tuple[str, List[str]]:
         headlines = [a.get("title") for a in data.get("articles", []) if a.get("title")]
         return "newsapi_top_headlines", headlines
 
+    if source == "govuk":
+        atom_url = os.getenv("GOVUK_ATOM_URL", "https://www.gov.uk/search/all.atom")
+        feed = feedparser.parse(atom_url)
+        headlines = []
+        for entry in feed.entries[:80]:
+            title = getattr(entry, "title", None)
+            if title:
+                headlines.append(str(title))
+        return f"govuk:{atom_url}", headlines
+
     # RSS fallback
     rss_url = os.getenv("RSS_URL", "https://feeds.bbci.co.uk/news/uk/rss.xml")
     feed = feedparser.parse(rss_url)
@@ -109,14 +119,37 @@ def ingest_and_store_trends(top_k: int = 20) -> List[TrendTopic]:
     """
     Fetch headlines, extract terms, upsert TrendTopic rows.
     """
-    source_name, headlines = fetch_headlines()
-    extracted = extract_trend_terms(headlines, top_k=top_k)
-    now = _now_utc()
+    source = os.getenv("TRENDS_SOURCE", "rss").lower().strip()
+    if source == "snapshot":
+        import json
+        from app.core.scoring import ROOT_DIR
+        snapshot_path = os.path.join(ROOT_DIR, "data", "trends_snapshot_today.json")
+        with open(snapshot_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        
+        topics = []
+        for e in data.get("trends", []):
+            last_seen_str = e.get("last_seen", "")
+            try:
+                last_seen = datetime.fromisoformat(last_seen_str.replace("Z", "+00:00"))
+            except Exception:
+                last_seen = _now_utc()
+            topics.append(TrendTopic(
+                term=e["term"],
+                volume=e["volume"],
+                tone=e["tone"],
+                last_seen=last_seen,
+                source="snapshot"
+            ))
+    else:
+        source_name, headlines = fetch_headlines()
+        extracted = extract_trend_terms(headlines, top_k=top_k)
+        now = _now_utc()
 
-    topics = [
-        TrendTopic(term=e["term"], volume=e["volume"], tone=e["tone"], last_seen=now, source=source_name)
-        for e in extracted
-    ]
+        topics = [
+            TrendTopic(term=e["term"], volume=e["volume"], tone=e["tone"], last_seen=now, source=source_name)
+            for e in extracted
+        ]
 
     with get_session() as session:
         for t in topics:
