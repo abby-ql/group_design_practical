@@ -16,7 +16,7 @@ router = APIRouter()
 @router.get("/current")
 def current(limit: int = Query(default=30, ge=1, le=200)) -> Dict[str, Any]:
     with get_session() as session:
-        trends = session.exec(select(TrendTopic).order_by(TrendTopic.volume.desc()).limit(limit)).all()
+        trends = session.exec(select(TrendTopic).order_by(TrendTopic.volume.desc(), TrendTopic.term.asc()).limit(limit)).all()
         return {"trends": trends, "count": len(trends)}
 
 
