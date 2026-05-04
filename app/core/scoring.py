@@ -1,4 +1,3 @@
-\
 from __future__ import annotations
 
 import os
@@ -57,6 +56,15 @@ _CFG = load_configs()
 
 def _now_utc() -> datetime:
     return datetime.now(timezone.utc)
+
+
+def _reference_time(as_of: Optional[datetime]) -> datetime:
+    """Wall-clock 'now' for scoring, or a replay timestamp for backtests."""
+    if as_of is None:
+        return _now_utc()
+    if as_of.tzinfo is None:
+        return as_of.replace(tzinfo=timezone.utc)
+    return as_of.astimezone(timezone.utc)
 
 
 def normalize_text(text: str) -> str:
@@ -230,6 +238,8 @@ def score_item(
     text: str,
     created_at: datetime,
     current_trends: Optional[List[Dict[str, Any]]] = None,
+    *,
+    as_of: Optional[datetime] = None,
 ) -> RiskScoreOut:
     # Compute a transparent risk indicator score (0..100-ish), plus reasons and decomposition.
     text = normalize_text(text)
@@ -428,9 +438,9 @@ def score_item(
         })
 
     # 4) Age (exposure bump)
-    now = _now_utc()
+    ref = _reference_time(as_of)
     created_at_utc = created_at.astimezone(timezone.utc) if created_at.tzinfo else created_at.replace(tzinfo=timezone.utc)
-    age_days = (now - created_at_utc).days
+    age_days = (ref - created_at_utc).days
 
     grace = float(weights["age"]["grace_days"])
     ramp = float(weights["age"]["ramp_days"])
@@ -474,13 +484,13 @@ def score_item(
                 try:
                     last_seen_dt = datetime.fromisoformat(last_seen.replace("Z", "+00:00"))
                 except Exception:
-                    last_seen_dt = now
+                    last_seen_dt = ref
             elif isinstance(last_seen, datetime):
                 last_seen_dt = last_seen.astimezone(timezone.utc) if last_seen.tzinfo else last_seen.replace(tzinfo=timezone.utc)
             else:
-                last_seen_dt = now
+                last_seen_dt = ref
 
-            hours = (now - last_seen_dt).total_seconds() / 3600.0
+            hours = (ref - last_seen_dt).total_seconds() / 3600.0
             # half-life decay: exp(-ln(2)*t/half_life)
             recency = math.exp(-math.log(2) * hours / max(1e-6, half_life))
 
