@@ -82,7 +82,9 @@ Signals (all weights configurable in `config/scoring.yaml`):
 - **Topic tags** (keyword rules from `config/topics.yaml`)
 - **Toxicity** (rule‑based keyword list + simple style cues)
 - **Age** (older items get a small exposure bump)
-- **Trend overlap delta** (if item overlaps with current trends)
+- **Trend overlap delta** (if item overlaps with current trends; recency uses a configurable half-life)
+
+For **historical replay** (offline backtests), `score_item` accepts an optional keyword-only `as_of` timestamp so age and trend decay are computed relative to that moment. The live API omits it and uses wall-clock UTC.
 
 Every signal returns:
 - numeric contribution
@@ -100,6 +102,22 @@ Every signal returns:
 ### Trend history (for offline backtesting / rescoring demos)
 - `data/trend_history_uk_demo.csv`
 
+### Offline trend rescoring backtest (Issue #4)
+
+Deterministic replay: for each day in the trend history, rescore the synthetic items with and without that day’s trend terms, then write a full matrix plus selected low→medium (or higher) “spike” events.
+
+```bash
+python -m scripts.backtest_rescore
+```
+
+Outputs (overwritten each run):
+
+- `reports/backtest_results.csv` — one row per (snapshot × item)
+- `reports/backtest_results.json` — same data plus `events_low_to_risky` and `case_studies`
+- Narrative write-up: `reports/evaluation.md`
+
+Optional flags: `--items`, `--trend-history`, `--out-csv`, `--out-json`, `--case-studies-k`.
+
 ---
 
 ## 5) Notes on “Twitter/X datasets”
@@ -110,8 +128,6 @@ See `data/EXTERNAL_DATASETS.md` for recommended open‑licensed alternatives and
 ---
 
 ## 6) Tests
-
-
 
 Run unit + integration tests:
 
@@ -130,6 +146,7 @@ pytest -q -k integration
 app/            FastAPI app
 config/         YAML configs (topics, scoring weights, ambiguity rules)
 data/           sample datasets
+reports/        evaluation write-ups + generated backtest outputs (see Issue #4)
 scripts/        seed + demo scripts
 tests/          unit tests
 web/            simple dashboard (served as static)
