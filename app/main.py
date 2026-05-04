@@ -15,9 +15,22 @@ app = FastAPI(
     description="Student demonstrator: transparent risk indicators + UK trend overlap alerts."
 )
 
+import asyncio
+from fastapi.concurrency import run_in_threadpool
+from app.core.trends import ingest_and_store_trends
+
+async def ingest_trends_task():
+    while True:
+        try:
+            await run_in_threadpool(ingest_and_store_trends, 20)
+        except Exception as e:
+            print(f"Background ingest error: {e}")
+        await asyncio.sleep(300)  # 5 minutes
+
 @app.on_event("startup")
-def _startup() -> None:
+async def _startup() -> None:
     init_db()
+    asyncio.create_task(ingest_trends_task())
 
 app.include_router(risk_router, prefix="/risk", tags=["risk"])
 app.include_router(trends_router, prefix="/trends", tags=["trends"])
