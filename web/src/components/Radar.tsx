@@ -61,7 +61,7 @@ export function Radar({ data, formatter }: RadarChartProps): React.ReactNode {
 		},
 		series: [
 			{
-				type: "line",
+				type: "bar",
 				data: [
 					...data.map((item) => (100 * item.value) / item.max),
 					data.length > 0 ? (100 * data[0].value) / data[0].max : 0,

@@ -12,9 +12,19 @@ export function RadarChart({ data, title = "Risk Score Decomposition" }: RadarCh
 
   // Transform data for Radar component: {signal, contribution} -> {name, max, value}
   const maxContribution = Math.max(...data.map(i => i.contribution))
+  
+  // Define max values based on scoring configuration
+  const dimensionMaxValues: Record<string, number> = {
+    'sentiment': 10,      // max from negative_strong weight
+    'toxicity': 30,       // max_contribution from config
+    'topics': 35,         // max_contribution from config
+    'age': 10,            // max_contribution from config
+    'trend_overlap': 25,   // max_contribution from config
+  }
+  
   const radarData = data.map(item => ({
     name: item.signal[0].toUpperCase() + item.signal.slice(1).replaceAll("_", " "),
-    max: maxContribution * 1.2, // Add some padding
+    max: dimensionMaxValues[item.signal] || Math.max(maxContribution, 1),
     value: item.contribution
   }))
 
