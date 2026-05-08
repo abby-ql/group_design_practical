@@ -35,6 +35,16 @@ export function WhyFlaggedSection({ selectedItem }: WhyFlaggedSectionProps) {
     <div className="card border border-gray-300 rounded-xl p-3 flex-1 min-w-80">
       <h3 className="text-sm font-medium text-gray-900 mb-3">Why flagged?</h3>
       
+      {/* Text Content */}
+      {selectedItem?.text && (
+        <div className="mb-4 p-3 bg-gray-50 rounded-lg">
+          <h4 className="text-xs font-medium text-gray-600 mb-2">Text Content:</h4>
+          <p className="text-sm text-gray-800 whitespace-pre-wrap break-words">
+            {selectedItem.text}
+          </p>
+        </div>
+      )}
+      
       {/* Platform Information */}
       <div className="mb-4">
         <div className="flex items-center gap-2 mb-2">
