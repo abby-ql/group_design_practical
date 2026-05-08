@@ -56,3 +56,39 @@ def list_items(
             "risk": rs.model_dump(),
         })
     return {"items": out, "count": len(out)}
+
+
+@router.post("/items")
+def create_items(items: List[ItemIn]) -> Dict[str, Any]:
+    """
+    Create multiple new items in the database.
+    """
+    created_items = []
+    now = _now_utc()
+    
+    with get_session() as session:
+        for item_in in items:
+            item = Item(
+                id=str(uuid.uuid4()),
+                user_id="upload_user",  # Default user for uploads
+                platform=item_in.platform or "unknown",
+                visibility=item_in.visibility or "public",
+                language=item_in.language or "en",
+                created_at=item_in.created_at or now,
+                text=item_in.text,
+                item_metadata=item_in.item_metadata or {}
+            )
+            session.add(item)
+            created_items.append(item)
+        
+        session.commit()
+        
+        # Refresh to get the database state
+        for item in created_items:
+            session.refresh(item)
+    
+    return {
+        "success": True,
+        "count": len(created_items),
+        "items": [{"id": item.id, "created_at": item.created_at} for item in created_items]
+    }

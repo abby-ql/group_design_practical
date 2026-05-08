@@ -86,6 +86,46 @@ function App() {
     setUploadData(uploadData.filter((_, i) => i !== index));
   };
 
+  const submitUploadData = async () => {
+    if (uploadData.length === 0) {
+      setStatus("No items to upload");
+      return;
+    }
+
+    setStatus("Uploading items...");
+    try {
+      const response = await fetch('/risk/items', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(
+          uploadData.map(item => ({
+            text: item.text,
+            created_at: new Date(item.time).toISOString(),
+            platform: item.platform,
+            visibility: 'public',
+            language: 'en',
+            item_metadata: {}
+          }))
+        ),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Upload failed: ${response.statusText}`);
+      }
+
+      const result = await response.json();
+      setStatus(`Successfully uploaded ${result.count} items`);
+      setUploadData([]); // Clear the upload data after successful upload
+      
+      // Refresh the items list to show the new items
+      await refetchItems();
+    } catch (e: unknown) {
+      setStatus("Error: " + (e as Error).message);
+    }
+  };
+
   return (
     <div className="font-sans m-5">
       <h1 className="mb-1.5 text-2xl font-bold">Trend‑aware Risk Signals</h1>
@@ -361,6 +401,15 @@ function App() {
                     className="hidden"
                   />
                 </label>
+
+                {uploadData.length > 0 && (
+                  <button
+                    onClick={submitUploadData}
+                    className="px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 text-sm font-medium"
+                  >
+                    Submit All
+                  </button>
+                )}
               </div>
               
               {uploadData.length > 0 && (
