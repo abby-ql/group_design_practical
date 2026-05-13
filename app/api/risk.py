@@ -1,0 +1,109 @@
+\
+from __future__ import annotations
+
+import uuid
+from datetime import datetime, timezone
+from typing import Any, Dict, List, Optional
+
+from fastapi import APIRouter, Query
+from sqlmodel import select
+
+from app.core.db import get_session
+from app.core.models import Item, ItemIn, RiskScore, RiskScoreOut, TrendTopic
+from app.core.scoring import score_item, bucket_for
+
+router = APIRouter()
+
+
+def _now_utc() -> datetime:
+    return datetime.now(timezone.utc)
+
+
+def _load_trends(session) -> List[Dict[str, Any]]:
+    trends = session.exec(select(TrendTopic)).all()
+    return [{"term": t.term, "volume": t.volume, "tone": t.tone, "last_seen": t.last_seen, "source": t.source} for t in trends]
+
+
+@router.post("/score", response_model=RiskScoreOut)
+def score(item: ItemIn, include_trends: bool = Query(default=True)) -> RiskScoreOut:
+    with get_session() as session:
+        trends = _load_trends(session) if include_trends else None
+    return score_item(item.text, item.created_at, current_trends=trends)
+
+
+@router.get("/items")
+def list_items(
+    limit: int = Query(default=50, ge=1, le=500),
+    include_trends: bool = Query(default=True),
+) -> Dict[str, Any]:
+    """
+    Convenience endpoint for the demo UI: returns sample items and a computed score.
+    If item has manual_score in metadata, uses that instead of calculating.
+    """
+    with get_session() as session:
+        items = session.exec(select(Item).order_by(Item.created_at.desc()).limit(limit)).all()
+        trends = _load_trends(session) if include_trends else None
+
+    out = []
+    for it in items:
+        # Check if this item has a manual score override
+        manual_score = it.item_metadata.get("manual_score") if it.item_metadata else None
+        
+        if manual_score is not None:
+            # Use the manual score instead of calculating
+            rs = RiskScoreOut(
+                total_score=float(manual_score),
+                bucket=bucket_for(float(manual_score)),
+                reasons=[{"type": "manual_override", "description": f"Manual score assigned: {manual_score}"}],
+                decomposition=[]
+            )
+        else:
+            # Calculate normally
+            rs = score_item(it.text, it.created_at, current_trends=trends)
+        
+        out.append({
+            "id": it.id,
+            "created_at": it.created_at,
+            "platform": it.platform,
+            "visibility": it.visibility,
+            "text": it.text,
+            "edge_case": it.edge_case,
+            "risk": rs.model_dump(),
+        })
+    return {"items": out, "count": len(out)}
+
+
+@router.post("/items")
+def create_items(items: List[ItemIn]) -> Dict[str, Any]:
+    """
+    Create multiple new items in the database.
+    """
+    created_items = []
+    now = _now_utc()
+    
+    with get_session() as session:
+        for item_in in items:
+            item = Item(
+                id=str(uuid.uuid4()),
+                user_id="upload_user",  # Default user for uploads
+                platform=item_in.platform or "unknown",
+                visibility=item_in.visibility or "public",
+                language=item_in.language or "en",
+                created_at=item_in.created_at or now,
+                text=item_in.text,
+                item_metadata=item_in.item_metadata or {}
+            )
+            session.add(item)
+            created_items.append(item)
+        
+        session.commit()
+        
+        # Refresh to get the database state
+        for item in created_items:
+            session.refresh(item)
+    
+    return {
+        "success": True,
+        "count": len(created_items),
+        "items": [{"id": item.id, "created_at": item.created_at} for item in created_items]
+    }

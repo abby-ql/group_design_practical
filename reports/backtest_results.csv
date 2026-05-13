@@ -1,0 +1,746 @@
+snapshot_as_of,item_id,item_created_at,baseline_bucket,with_trends_bucket,baseline_score,with_trends_score,risk_delta,bucket_transition,trend_overlap_terms,edge_case_flags,matched_topic_signals
+2016-06-24T12:00:00Z,53ab103b-7804-46fa-bc41-148089f1545d,2015-08-20T05:28:29Z,low,low,8.76,19.16,10.4,low->low,"[""referendum""]",[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2016-06-24T12:00:00Z,16e94edd-8a70-4a2c-b067-7b962cd4b53c,2015-07-16T04:08:08Z,low,low,8.86,8.86,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2016-06-24T12:00:00Z,7a2ac75d-bd21-4dd2-9436-bc746cc8be8c,2015-11-16T05:51:07Z,low,low,19.52,19.52,0.0,low->low,[],[],[]
+2016-06-24T12:00:00Z,5bd306fb-ce97-41b8-9690-a482cb030d65,2015-10-01T22:41:41Z,low,low,0.0,0.0,0.0,low->low,[],[],[]
+2016-06-24T12:00:00Z,5d97696f-4b01-4aab-9299-8ce53fe21276,2016-03-06T01:43:05Z,low,low,12.22,12.22,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2016-06-24T12:00:00Z,981db198-9d12-4c8b-9d26-7b56c90f41f2,2015-02-27T14:01:12Z,low,low,8.24,8.24,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2016-06-24T12:00:00Z,fdb7e43a-1a66-4436-a192-98cf9cf01b86,2015-06-04T00:24:39Z,low,low,6.98,6.98,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2016-06-24T12:00:00Z,50406738-d013-4265-805e-b0330ced0b69,2015-07-05T03:41:01Z,low,medium,13.89,24.29,10.4,low->medium,"[""referendum""]",[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2016-06-24T12:00:00Z,ecc9282d-262f-4483-b217-b71b59172dc7,2016-04-12T21:27:17Z,low,low,6.12,6.12,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2016-06-24T12:00:00Z,799f87f7-13a8-424f-bc26-803a937a1bf5,2015-06-10T16:10:00Z,low,low,10.96,10.96,0.0,low->low,[],[],[]
+2016-06-24T12:00:00Z,c733cdbb-d694-403c-afbb-244db65a63fa,2015-11-11T06:48:51Z,low,low,0.54,0.54,0.0,low->low,[],[],[]
+2016-06-24T12:00:00Z,05ed583b-5dbc-4182-98d0-94c3dd76d5af,2016-02-14T13:29:18Z,low,low,0.27,0.27,0.0,low->low,[],[],[]
+2016-06-24T12:00:00Z,a1783b77-7063-47ae-8305-6c2357c32e9e,2015-06-05T11:56:45Z,low,low,0.0,0.0,0.0,low->low,[],[],[]
+2016-06-24T12:00:00Z,00ed6e7c-d574-4acf-b900-7f4abeffc317,2016-02-13T03:14:42Z,low,low,11.28,11.28,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2016-06-24T12:00:00Z,cb61b3c2-5d00-4f6a-a528-072f0d0eb39b,2015-06-29T21:48:42Z,low,low,5.9,5.9,0.0,low->low,[],[],[]
+2016-06-24T12:00:00Z,7520ba04-2aa9-40ec-a724-4f31ec9454b1,2015-11-08T13:46:00Z,low,low,7.54,7.54,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2016-06-24T12:00:00Z,de1f981c-a14a-4308-8e6e-a8b9e93dc471,2016-05-12T12:44:30Z,low,low,0.03,0.03,0.0,low->low,[],[],[]
+2016-06-24T12:00:00Z,34de973e-50e5-483b-aff6-d6d2291ee0b2,2015-10-12T17:49:39Z,low,low,9.62,9.62,0.0,low->low,[],[],[]
+2016-06-24T12:00:00Z,69955bb5-d5e3-446a-ad1c-e2549a1e64e6,2016-02-08T12:25:01Z,low,low,4.29,4.29,0.0,low->low,[],[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2016-06-24T12:00:00Z,197227f1-c7fa-4645-bbb8-d05000e77d49,2016-03-26T18:24:48Z,low,low,13.16,13.16,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2016-06-24T12:00:00Z,4c176cc3-c25a-4dea-a326-3c48fba105ef,2016-02-22T03:38:42Z,low,low,13.25,13.25,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2016-06-24T12:00:00Z,1be5b31c-59b2-4cc2-bd65-97a224bb45e9,2015-04-24T06:44:06Z,low,low,6.09,6.09,0.0,low->low,[],[],[]
+2016-06-24T12:00:00Z,7e08380a-70de-4375-afda-7ca31ae4b44f,2016-02-14T02:10:00Z,low,low,13.28,13.28,0.0,low->low,[],"[""possible_ambiguity"", ""possible_political_term_non_political""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,3551a28a-f089-4e25-bb6a-a06a6e3b8130,2019-11-29T08:43:51Z,low,low,0.22,0.22,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,a6604602-7a65-4bb8-8022-a5a3f45bc82b,2019-03-26T02:19:12Z,low,low,0.9,0.9,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,bf40b757-8ca7-4d2e-80ae-c092a045ced7,2019-11-13T19:56:57Z,low,low,0.27,0.27,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,04623467-4fba-4494-8bc0-1efdb47c2f36,2018-05-21T21:39:46Z,low,low,8.75,18.75,10.0,low->low,"[""lockdown""]",[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,8750b49f-925d-4fff-89c1-7b33915b166e,2019-09-23T15:10:41Z,low,low,12.41,22.41,10.0,low->low,"[""coronavirus""]",[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,6a986d52-2927-4feb-81e9-21fcc9b051d0,2018-11-30T21:44:31Z,low,low,11.22,11.22,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,5145de2c-2ea8-40d9-88bd-7c9ddefcbc46,2018-08-08T05:04:11Z,low,low,1.53,1.53,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,53ab103b-7804-46fa-bc41-148089f1545d,2015-08-20T05:28:29Z,low,low,12.5,12.5,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,7c6c450f-23b2-43f1-97e0-096993066a6f,2019-03-02T09:33:58Z,low,low,5.97,5.97,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,16e94edd-8a70-4a2c-b067-7b962cd4b53c,2015-07-16T04:08:08Z,low,low,12.6,12.6,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,9ac8102b-3b7a-4c06-b202-c6f4b9da6c96,2016-08-01T05:07:17Z,low,low,16.55,16.55,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,be28ef36-d924-470e-8bb2-333f6bb59601,2017-08-24T17:45:26Z,low,low,9.49,19.49,10.0,low->low,"[""nhs""]",[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,6ff25002-27b8-4a8e-98c9-651da9c66147,2017-08-18T04:07:29Z,low,low,0.51,0.51,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,8457b309-d2ad-4c2f-be3c-937f2e8d5bda,2019-08-11T09:59:08Z,low,low,20.53,20.53,0.0,low->low,[],[],"[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,c4f9a7c3-ed09-44ff-861b-ebff41bc3c7e,2018-03-25T14:06:46Z,low,low,6.9,6.9,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,cfe8f684-65d1-4425-92fd-9f7c914ed47a,2016-12-14T04:40:56Z,low,low,11.18,11.18,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,4f1cd519-0c08-4899-95a3-0f28a47b44ac,2018-05-25T02:27:26Z,low,low,12.74,12.74,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,7a2ac75d-bd21-4dd2-9436-bc746cc8be8c,2015-11-16T05:51:07Z,low,low,23.26,23.26,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,4ce34a4e-7bee-4019-bd30-9d2faa7ddac6,2019-10-17T20:50:44Z,low,low,0.34,0.34,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,925a1f0c-be67-4618-aeab-cd823681cf19,2016-08-09T02:52:58Z,low,low,3.53,3.53,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,7e3f7f9b-19fd-4722-b81a-f3a0e9cbbaf5,2019-02-25T01:35:50Z,low,low,9.98,9.98,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,afe3c20e-97ac-445d-9b97-3cd85aed78b2,2019-12-04T13:29:04Z,low,low,0.21,0.21,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,5bd306fb-ce97-41b8-9690-a482cb030d65,2015-10-01T22:41:41Z,low,low,2.39,2.39,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,16f37b90-2d5c-41bf-b16b-81c4b5193be7,2019-06-15T14:58:00Z,low,low,5.68,5.68,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,5d97696f-4b01-4aab-9299-8ce53fe21276,2016-03-06T01:43:05Z,low,low,15.96,15.96,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,81bc0c25-7c10-4d43-8770-a9514c31a1c3,2020-01-29T19:25:18Z,low,low,0.05,0.05,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,992c94bd-0960-45bf-b105-28f486656bbc,2018-06-06T15:25:41Z,low,low,9.7,9.7,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,db775f5b-fa34-4e1a-80de-348b6470890a,2017-12-20T06:53:48Z,low,low,2.17,2.17,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,981db198-9d12-4c8b-9d26-7b56c90f41f2,2015-02-27T14:01:12Z,low,low,11.98,21.98,10.0,low->low,"[""coronavirus""]",[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,ecd034bc-0d7a-451f-9e7f-0c7754f3c1d9,2016-08-31T09:12:28Z,low,low,3.47,3.47,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,1052557c-f00f-405a-ba0c-193c575c034b,2017-02-26T15:36:13Z,low,low,2.98,2.98,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,2fa5a29b-21f9-48b8-a868-2b050669883c,2019-04-17T13:27:25Z,low,low,12.84,22.84,10.0,low->low,"[""vaccine""]",[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,3a216d41-1889-463d-819a-6d5af4e32164,2018-07-10T20:05:00Z,low,low,1.61,1.61,0.0,low->low,[],"[""possible_ambiguity""]",[]
+2020-03-20T12:00:00Z,fdb7e43a-1a66-4436-a192-98cf9cf01b86,2015-06-04T00:24:39Z,low,low,10.72,10.72,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,9d71328f-5a19-4ed1-8a50-f0059bd46ded,2017-07-23T09:17:45Z,low,low,10.58,10.58,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,889ed15a-3847-4958-917e-8df684e89856,2016-08-15T16:51:28Z,low,low,9.51,9.51,0.0,low->low,[],[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,6cbb364f-7b6b-45af-bb32-cd7759a6aa20,2016-08-02T04:21:51Z,low,low,3.55,3.55,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,3433af0f-a1a4-4b7e-a6e2-e7981de72121,2016-07-21T11:39:09Z,low,low,17.58,17.58,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,50406738-d013-4265-805e-b0330ced0b69,2015-07-05T03:41:01Z,low,low,17.63,17.63,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,ecc9282d-262f-4483-b217-b71b59172dc7,2016-04-12T21:27:17Z,low,low,9.85,9.85,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,799f87f7-13a8-424f-bc26-803a937a1bf5,2015-06-10T16:10:00Z,low,low,14.7,14.7,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,67d1c487-06cc-4c59-831a-c4c0dc1e1da6,2018-02-01T05:09:27Z,low,low,9.05,19.05,10.0,low->low,"[""lockdown""]",[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,791c47fd-6c7d-4a16-9584-96f016af330f,2020-01-18T16:16:42Z,low,low,8.08,8.08,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,c3e26e9e-dd8e-4678-b0fc-7f1f9a5ed433,2017-03-12T06:39:53Z,low,low,20.94,20.94,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,f90322ce-c646-4e89-929c-30002264f0cb,2019-07-04T21:47:39Z,low,low,0.63,0.63,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,b164d86f-e935-41da-bbc0-d068c16b429a,2017-03-10T11:40:29Z,low,low,7.95,7.95,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,14e95486-2e0f-4955-b0f9-3075b29cf4a3,2019-11-23T06:24:21Z,low,low,7.24,7.24,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,585a4a94-8b6b-46df-b7b5-264179f34ba3,2018-08-22T16:01:35Z,low,low,16.49,16.49,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,c733cdbb-d694-403c-afbb-244db65a63fa,2015-11-11T06:48:51Z,low,low,4.28,4.28,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,ce1200f0-70d9-4e5f-a0fb-d50196f9d287,2018-09-24T19:28:55Z,low,low,1.4,1.4,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,05ed583b-5dbc-4182-98d0-94c3dd76d5af,2016-02-14T13:29:18Z,low,low,4.01,4.01,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,cb73d39d-3ce7-40cc-9b62-0435d624904a,2017-09-16T05:18:10Z,low,low,9.43,19.43,10.0,low->low,"[""vaccine""]",[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,168d8964-6f1e-44b5-9e1f-c3ac7bcad634,2019-01-23T03:25:47Z,low,low,10.07,10.07,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,1622c023-236d-4665-92be-53dd35bd30dd,2020-02-17T23:16:08Z,low,low,5.0,5.0,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,52221700-c258-412e-aedd-0925b39fb40f,2017-09-23T03:30:31Z,low,low,13.41,13.41,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,5e2949c0-3944-4263-b534-a62cdd803bbf,2019-11-11T13:53:15Z,low,low,0.27,0.27,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,a1783b77-7063-47ae-8305-6c2357c32e9e,2015-06-05T11:56:45Z,low,low,2.71,2.71,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,1214f57e-ebac-4822-aaf8-a7c0e0c28acd,2020-03-15T11:30:00Z,low,low,7.0,17.0,10.0,low->low,"[""coronavirus""]",[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,4313a161-1eb6-44c8-a98f-a11aeeac073e,2017-06-14T18:00:49Z,low,low,2.68,2.68,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,cac1bba4-d116-4808-8a8f-e201f51aa3a3,2019-11-12T09:15:00Z,low,low,0.0,0.0,0.0,low->low,[],"[""possible_sarcasm""]",[]
+2020-03-20T12:00:00Z,00ed6e7c-d574-4acf-b900-7f4abeffc317,2016-02-13T03:14:42Z,low,low,15.02,15.02,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,867509fc-fdec-4f7a-a78e-96c9b5b51b98,2016-07-01T14:52:50Z,low,low,3.64,3.64,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,77fdafa4-db6b-4aba-918e-f62020550ec5,2018-04-15T01:36:06Z,low,low,6.85,6.85,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,cb61b3c2-5d00-4f6a-a528-072f0d0eb39b,2015-06-29T21:48:42Z,low,low,9.64,9.64,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,52fb8f82-0a3e-40ac-aaa5-4052c3c088dd,2019-01-27T21:43:02Z,low,low,20.06,20.06,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,d9449d0b-0f24-4176-b89a-63dbb4d6800d,2018-05-03T18:22:00Z,low,low,6.8,6.8,0.0,low->low,[],"[""possible_quote""]",[]
+2020-03-20T12:00:00Z,cc42d291-84b5-458f-97cb-7080ab5830a6,2018-01-20T00:15:46Z,low,low,2.08,2.08,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,9cee763e-e27b-42b0-9bcf-48a17f1c1a51,2017-03-30T20:57:56Z,low,low,2.89,2.89,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,c5e1305b-1edb-453b-bb3b-0337aa41b552,2019-09-15T02:36:47Z,low,low,0.43,0.43,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,b5861022-4dcf-47ba-a986-6e2c4f1ef139,2018-07-11T05:32:46Z,low,low,8.61,18.61,10.0,low->low,"[""coronavirus""]",[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,b3ce07ca-9af2-43a5-84d0-7203aab0526b,2017-04-14T10:56:33Z,low,low,10.85,10.85,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,b5847450-ef89-46ea-bea7-cc4278b8c39f,2017-09-30T19:56:18Z,low,low,2.39,2.39,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,15bdda15-152e-4167-9fc2-2118426e9f34,2019-03-29T11:08:24Z,low,low,5.9,5.9,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,7c08eb2c-c02e-4710-805e-5f5ec20c17b7,2016-11-09T17:02:54Z,low,low,13.28,13.28,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,72cefd95-9a96-4531-b89d-fd3aa17036da,2019-11-23T06:44:33Z,low,low,5.24,5.24,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,0909e31a-be92-4a1e-b35c-8246809c77ba,2019-08-23T23:03:50Z,low,low,12.49,22.49,10.0,low->low,"[""coronavirus""]",[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,28fd27d6-d0e8-4b34-8247-888daeddd7f7,2019-05-10T12:44:53Z,low,low,0.78,0.78,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,ffcd0211-fbba-4b46-9444-a9eb47750e18,2020-02-20T05:25:36Z,low,low,0.0,0.0,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,0e89ca9b-ba9d-4dc1-a1fa-6dbce2bc0227,2017-12-08T20:22:57Z,low,low,2.2,2.2,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,3dea4a10-42c4-48d1-803f-be041045a79a,2017-11-10T17:46:03Z,low,low,2.27,2.27,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,15e677cc-864e-43a7-89f4-f5ca2b73e486,2018-12-30T10:08:37Z,low,low,9.14,9.14,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,692089b1-995c-4550-a8ce-f1d58756e71c,2017-07-20T03:36:27Z,low,low,0.59,0.59,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,d73a9cd3-e90c-4b79-a7c8-f8969689104b,2019-11-09T12:13:15Z,low,low,0.28,0.28,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,7520ba04-2aa9-40ec-a724-4f31ec9454b1,2015-11-08T13:46:00Z,low,low,11.28,11.28,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,de1f981c-a14a-4308-8e6e-a8b9e93dc471,2016-05-12T12:44:30Z,low,low,3.77,3.77,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,ca7e9e7f-0af4-46ec-82f4-1bbacfbcf172,2018-05-17T09:04:49Z,low,low,16.76,16.76,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,410b90ba-1c1e-468c-a80d-811cd7779a8e,2019-01-30T11:17:17Z,low,low,9.05,9.05,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,67de8540-4ca2-4128-8914-c97faa70e290,2016-07-14T01:39:46Z,low,low,10.6,10.6,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,d7648a28-acb1-482e-9b6e-c2b4322d9bb1,2019-09-03T06:56:21Z,low,low,12.46,22.46,10.0,low->low,"[""nhs""]",[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,67041a0c-73f8-4ade-ba45-c7856c6c9493,2018-12-29T19:28:35Z,low,low,7.14,7.14,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,75b26415-2c1e-41f4-865e-25a31a6c4497,2017-01-29T12:27:00Z,low,low,3.05,3.05,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,32db2d2a-d7a8-43e6-af81-688c4f32af9b,2017-05-05T00:20:19Z,low,low,7.79,7.79,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,cea7593f-1f89-4548-9e07-e0dadf1f1c88,2019-05-16T18:09:21Z,low,low,0.76,0.76,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,e5198933-0a3b-4eb7-a46b-1d7e0fd6a6b4,2018-08-11T01:36:16Z,low,low,7.53,7.53,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,34de973e-50e5-483b-aff6-d6d2291ee0b2,2015-10-12T17:49:39Z,low,low,13.36,13.36,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,69955bb5-d5e3-446a-ad1c-e2549a1e64e6,2016-02-08T12:25:01Z,low,low,8.03,8.03,0.0,low->low,[],[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,81147bd1-0436-4bca-bfed-568bad0ee46a,2018-10-18T23:35:55Z,low,low,9.34,9.34,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,839548cf-c937-4db0-924f-8d75fb9b7985,2019-05-30T13:26:43Z,low,low,11.72,11.72,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,197227f1-c7fa-4645-bbb8-d05000e77d49,2016-03-26T18:24:48Z,low,low,16.9,16.9,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,19ed025b-70ca-4a6a-8538-d0e1817d83ea,2019-12-19T13:33:01Z,low,low,12.17,12.17,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,aa248381-6e2e-428a-abc3-1f800f33dca2,2016-08-13T20:13:41Z,low,low,9.52,9.52,0.0,low->low,[],[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,b0a68dcc-ac4b-47b1-a0d5-bae0314993e4,2019-10-23T18:01:10Z,low,low,0.32,0.32,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,b43d653e-4b95-449e-9489-352177accb3c,2017-08-19T07:40:00Z,low,low,17.5,17.5,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,4c176cc3-c25a-4dea-a326-3c48fba105ef,2016-02-22T03:38:42Z,low,low,16.99,16.99,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,f7025db2-a717-4f28-b458-b5660795ca43,2019-11-23T06:32:40Z,low,low,0.24,0.24,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,3fa0a894-daa4-42e7-bd16-e276d35d30f5,2020-02-15T06:55:19Z,low,low,0.01,0.01,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,da08b0b7-9b16-48cb-8dd4-3dc93cd5267d,2019-01-18T21:49:25Z,low,low,6.08,6.08,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,a9f55695-1aff-4a9d-83fa-ee2646dd9383,2017-12-26T11:41:53Z,low,low,7.15,7.15,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,c71c8366-5b76-4153-83d0-1a889a4bbfdd,2018-04-08T01:53:45Z,low,low,8.87,8.87,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,1be5b31c-59b2-4cc2-bd65-97a224bb45e9,2015-04-24T06:44:06Z,low,low,9.83,9.83,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,7e08380a-70de-4375-afda-7ca31ae4b44f,2016-02-14T02:10:00Z,low,low,17.02,17.02,0.0,low->low,[],"[""possible_ambiguity"", ""possible_political_term_non_political""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,8a763f2d-88e7-4150-ae04-d6769cb69d6a,2019-11-06T20:24:02Z,low,low,16.28,16.28,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,ee01c338-8d5b-476f-bc14-7cd0d9127c87,2019-06-12T03:14:01Z,low,low,20.69,20.69,0.0,low->low,[],[],"[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,443c935f-6659-4dae-b102-b0d54f0fd17e,2017-08-08T15:41:37Z,low,low,0.53,0.53,0.0,low->low,[],[],[]
+2020-03-20T12:00:00Z,a90ea5e5-9e51-4f24-bc1c-107eb2193bfe,2018-11-24T06:07:27Z,low,low,9.24,9.24,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2020-03-20T12:00:00Z,43da8e5a-1a92-4e87-947b-29ac6c3426c5,2019-05-01T03:24:38Z,low,low,9.81,9.81,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,3551a28a-f089-4e25-bb6a-a06a6e3b8130,2019-11-29T08:43:51Z,low,low,1.68,1.68,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,a6604602-7a65-4bb8-8022-a5a3f45bc82b,2019-03-26T02:19:12Z,low,low,2.36,2.36,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,bf40b757-8ca7-4d2e-80ae-c092a045ced7,2019-11-13T19:56:57Z,low,low,1.72,1.72,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,04623467-4fba-4494-8bc0-1efdb47c2f36,2018-05-21T21:39:46Z,low,low,10.2,10.2,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,8750b49f-925d-4fff-89c1-7b33915b166e,2019-09-23T15:10:41Z,low,low,13.86,13.86,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,6a986d52-2927-4feb-81e9-21fcc9b051d0,2018-11-30T21:44:31Z,low,low,12.67,12.67,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,5145de2c-2ea8-40d9-88bd-7c9ddefcbc46,2018-08-08T05:04:11Z,low,low,2.99,2.99,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,69cce3a2-333e-47a1-abcd-815a381b918a,2021-04-21T09:25:59Z,low,low,6.28,6.28,0.0,low->low,[],[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,53ab103b-7804-46fa-bc41-148089f1545d,2015-08-20T05:28:29Z,low,low,13.96,13.96,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,7c6c450f-23b2-43f1-97e0-096993066a6f,2019-03-02T09:33:58Z,low,low,7.42,7.42,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,16e94edd-8a70-4a2c-b067-7b962cd4b53c,2015-07-16T04:08:08Z,low,low,14.05,14.05,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,9ac8102b-3b7a-4c06-b202-c6f4b9da6c96,2016-08-01T05:07:17Z,low,low,18.01,18.01,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,be28ef36-d924-470e-8bb2-333f6bb59601,2017-08-24T17:45:26Z,low,low,10.94,20.94,10.0,low->low,"[""nhs""]",[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,6ff25002-27b8-4a8e-98c9-651da9c66147,2017-08-18T04:07:29Z,low,low,1.96,1.96,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,8457b309-d2ad-4c2f-be3c-937f2e8d5bda,2019-08-11T09:59:08Z,low,low,21.98,21.98,0.0,low->low,[],[],"[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,d4c7630c-99ad-42de-b5fc-caafc8ff1bde,2021-07-18T09:36:52Z,low,low,0.0,0.0,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,c4f9a7c3-ed09-44ff-861b-ebff41bc3c7e,2018-03-25T14:06:46Z,low,low,8.36,8.36,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,6d2c4cb7-7df6-4dce-9818-c55fb72c5aa9,2020-11-20T02:42:06Z,low,low,0.7,0.7,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,6c113c75-47d7-4837-a448-0aa5c9b75ae2,2021-03-30T03:32:33Z,low,low,7.34,17.34,10.0,low->low,"[""nhs""]",[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,cfe8f684-65d1-4425-92fd-9f7c914ed47a,2016-12-14T04:40:56Z,low,low,12.64,12.64,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,4f1cd519-0c08-4899-95a3-0f28a47b44ac,2018-05-25T02:27:26Z,low,low,14.19,14.19,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,7a2ac75d-bd21-4dd2-9436-bc746cc8be8c,2015-11-16T05:51:07Z,medium,medium,24.72,24.72,0.0,medium->medium,[],[],[]
+2021-09-01T12:00:00Z,4ce34a4e-7bee-4019-bd30-9d2faa7ddac6,2019-10-17T20:50:44Z,low,low,1.79,1.79,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,925a1f0c-be67-4618-aeab-cd823681cf19,2016-08-09T02:52:58Z,low,low,4.98,4.98,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,7e3f7f9b-19fd-4722-b81a-f3a0e9cbbaf5,2019-02-25T01:35:50Z,low,low,11.44,11.44,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,61e05e80-558f-41d1-8efd-1566c01ff931,2020-04-16T17:29:08Z,low,low,13.29,13.29,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,afe3c20e-97ac-445d-9b97-3cd85aed78b2,2019-12-04T13:29:04Z,low,low,1.66,1.66,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,5bd306fb-ce97-41b8-9690-a482cb030d65,2015-10-01T22:41:41Z,low,low,3.84,3.84,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,16f37b90-2d5c-41bf-b16b-81c4b5193be7,2019-06-15T14:58:00Z,low,low,7.13,7.13,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,5d97696f-4b01-4aab-9299-8ce53fe21276,2016-03-06T01:43:05Z,low,low,17.41,17.41,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,81bc0c25-7c10-4d43-8770-a9514c31a1c3,2020-01-29T19:25:18Z,low,low,1.51,1.51,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,992c94bd-0960-45bf-b105-28f486656bbc,2018-06-06T15:25:41Z,low,low,11.16,11.16,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,db775f5b-fa34-4e1a-80de-348b6470890a,2017-12-20T06:53:48Z,low,low,3.62,3.62,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,981db198-9d12-4c8b-9d26-7b56c90f41f2,2015-02-27T14:01:12Z,low,low,13.43,13.43,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,ecd034bc-0d7a-451f-9e7f-0c7754f3c1d9,2016-08-31T09:12:28Z,low,low,4.92,4.92,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,1052557c-f00f-405a-ba0c-193c575c034b,2017-02-26T15:36:13Z,low,low,4.43,4.43,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,2fa5a29b-21f9-48b8-a868-2b050669883c,2019-04-17T13:27:25Z,low,medium,14.29,24.29,10.0,low->medium,"[""vaccine""]",[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,3a216d41-1889-463d-819a-6d5af4e32164,2018-07-10T20:05:00Z,low,low,3.06,3.06,0.0,low->low,[],"[""possible_ambiguity""]",[]
+2021-09-01T12:00:00Z,21adcbe4-6267-45aa-bcc3-1ab105fff708,2020-05-23T22:35:34Z,low,low,15.19,15.19,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,fdb7e43a-1a66-4436-a192-98cf9cf01b86,2015-06-04T00:24:39Z,low,low,12.17,12.17,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,9d71328f-5a19-4ed1-8a50-f0059bd46ded,2017-07-23T09:17:45Z,low,low,12.03,12.03,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,889ed15a-3847-4958-917e-8df684e89856,2016-08-15T16:51:28Z,low,low,10.96,10.96,0.0,low->low,[],[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,6cbb364f-7b6b-45af-bb32-cd7759a6aa20,2016-08-02T04:21:51Z,low,low,5.0,5.0,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,c96650a0-fa0b-427d-9099-52f8171514f6,2020-11-14T12:36:47Z,low,low,0.0,0.0,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,3433af0f-a1a4-4b7e-a6e2-e7981de72121,2016-07-21T11:39:09Z,low,low,19.04,19.04,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,50406738-d013-4265-805e-b0330ced0b69,2015-07-05T03:41:01Z,low,low,19.08,19.08,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,ecc9282d-262f-4483-b217-b71b59172dc7,2016-04-12T21:27:17Z,low,low,11.31,11.31,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,799f87f7-13a8-424f-bc26-803a937a1bf5,2015-06-10T16:10:00Z,low,low,16.15,16.15,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,67d1c487-06cc-4c59-831a-c4c0dc1e1da6,2018-02-01T05:09:27Z,low,low,10.5,10.5,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,791c47fd-6c7d-4a16-9584-96f016af330f,2020-01-18T16:16:42Z,low,low,9.54,9.54,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,c3e26e9e-dd8e-4678-b0fc-7f1f9a5ed433,2017-03-12T06:39:53Z,low,low,22.39,22.39,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,22824385-d175-437e-bbee-6b2d92ad16be,2021-06-12T22:58:53Z,low,low,0.14,0.14,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,3bca185e-33b8-46b7-9382-6458cc51e557,2020-10-19T06:05:38Z,low,low,0.79,0.79,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,f90322ce-c646-4e89-929c-30002264f0cb,2019-07-04T21:47:39Z,low,low,2.08,2.08,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,b164d86f-e935-41da-bbc0-d068c16b429a,2017-03-10T11:40:29Z,low,low,9.4,9.4,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,14e95486-2e0f-4955-b0f9-3075b29cf4a3,2019-11-23T06:24:21Z,low,low,8.69,8.69,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,b47df004-5911-4c1a-b82f-3302bb29edb8,2020-11-04T01:09:10Z,low,low,7.74,7.74,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,c2624266-2b11-4efc-86db-541ec27e9c1e,2021-02-20T12:47:26Z,low,low,15.44,15.44,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,585a4a94-8b6b-46df-b7b5-264179f34ba3,2018-08-22T16:01:35Z,low,low,17.95,17.95,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,c733cdbb-d694-403c-afbb-244db65a63fa,2015-11-11T06:48:51Z,low,low,5.73,5.73,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,0751b967-4a4c-4121-a0cc-d72b1b1659d2,2021-04-11T05:38:08Z,low,low,0.31,0.31,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,bbb25a62-aa6e-4def-9772-4c871a588476,2020-10-14T21:11:33Z,low,low,5.8,5.8,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,ce1200f0-70d9-4e5f-a0fb-d50196f9d287,2018-09-24T19:28:55Z,low,low,2.85,2.85,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,05ed583b-5dbc-4182-98d0-94c3dd76d5af,2016-02-14T13:29:18Z,low,low,5.47,5.47,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,cb73d39d-3ce7-40cc-9b62-0435d624904a,2017-09-16T05:18:10Z,low,low,10.88,20.88,10.0,low->low,"[""vaccine""]",[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,48099ef8-4655-4d4c-ae14-027935e6d46b,2021-04-07T21:29:52Z,low,low,13.32,13.32,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,168d8964-6f1e-44b5-9e1f-c3ac7bcad634,2019-01-23T03:25:47Z,low,low,11.53,11.53,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,5927a685-482b-427b-8e20-08a26115128b,2021-02-24T05:37:16Z,low,low,6.44,6.44,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,1622c023-236d-4665-92be-53dd35bd30dd,2020-02-17T23:16:08Z,low,low,6.45,6.45,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,cd3ef55a-6fb1-4cc9-9d69-06814d5d4637,2021-04-02T22:40:36Z,low,low,0.0,0.0,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,52221700-c258-412e-aedd-0925b39fb40f,2017-09-23T03:30:31Z,low,low,14.86,14.86,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,5e2949c0-3944-4263-b534-a62cdd803bbf,2019-11-11T13:53:15Z,low,low,1.72,1.72,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,7c4c1985-4e05-47ef-93ee-ba590aa5d1b4,2021-03-07T12:52:59Z,low,low,15.4,15.4,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,a1783b77-7063-47ae-8305-6c2357c32e9e,2015-06-05T11:56:45Z,low,low,4.16,4.16,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,8a6aa6b0-f7b6-474e-ae59-d83d2ca0d183,2021-07-21T12:30:20Z,low,low,0.03,0.03,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,1214f57e-ebac-4822-aaf8-a7c0e0c28acd,2020-03-15T11:30:00Z,low,low,8.38,8.38,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,4313a161-1eb6-44c8-a98f-a11aeeac073e,2017-06-14T18:00:49Z,low,low,4.13,4.13,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,cac1bba4-d116-4808-8a8f-e201f51aa3a3,2019-11-12T09:15:00Z,low,low,0.0,0.0,0.0,low->low,[],"[""possible_sarcasm""]",[]
+2021-09-01T12:00:00Z,00ed6e7c-d574-4acf-b900-7f4abeffc317,2016-02-13T03:14:42Z,low,low,16.47,16.47,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,3da944f6-cdd1-403c-8d8e-270ef1bc5e02,2021-04-01T12:57:33Z,low,low,7.33,7.33,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,867509fc-fdec-4f7a-a78e-96c9b5b51b98,2016-07-01T14:52:50Z,low,low,5.09,5.09,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,77fdafa4-db6b-4aba-918e-f62020550ec5,2018-04-15T01:36:06Z,low,low,8.3,8.3,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,cb61b3c2-5d00-4f6a-a528-072f0d0eb39b,2015-06-29T21:48:42Z,low,low,11.1,11.1,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,52fb8f82-0a3e-40ac-aaa5-4052c3c088dd,2019-01-27T21:43:02Z,low,low,21.51,21.51,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,d9449d0b-0f24-4176-b89a-63dbb4d6800d,2018-05-03T18:22:00Z,low,low,8.25,8.25,0.0,low->low,[],"[""possible_quote""]",[]
+2021-09-01T12:00:00Z,cc42d291-84b5-458f-97cb-7080ab5830a6,2018-01-20T00:15:46Z,low,low,3.53,3.53,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,9cee763e-e27b-42b0-9bcf-48a17f1c1a51,2017-03-30T20:57:56Z,low,low,4.34,4.34,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,c5e1305b-1edb-453b-bb3b-0337aa41b552,2019-09-15T02:36:47Z,low,low,1.88,1.88,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,b5861022-4dcf-47ba-a986-6e2c4f1ef139,2018-07-11T05:32:46Z,low,low,10.06,10.06,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,b3ce07ca-9af2-43a5-84d0-7203aab0526b,2017-04-14T10:56:33Z,low,low,12.3,12.3,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,b5847450-ef89-46ea-bea7-cc4278b8c39f,2017-09-30T19:56:18Z,low,low,3.84,3.84,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,15bdda15-152e-4167-9fc2-2118426e9f34,2019-03-29T11:08:24Z,low,low,7.35,7.35,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,7c08eb2c-c02e-4710-805e-5f5ec20c17b7,2016-11-09T17:02:54Z,low,low,14.73,14.73,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,5d5fdefd-e041-405f-93b9-0e5c94f5a910,2021-07-08T02:21:46Z,low,low,0.07,0.07,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,72cefd95-9a96-4531-b89d-fd3aa17036da,2019-11-23T06:44:33Z,low,low,6.69,6.69,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,d05d6b01-cb8a-4d33-bf4c-77a95f627745,2020-10-12T21:52:09Z,low,low,11.8,11.8,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,7f00519b-9e77-4d5c-986e-28c11b93b36f,2021-06-29T07:11:32Z,low,low,5.09,5.09,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,0909e31a-be92-4a1e-b35c-8246809c77ba,2019-08-23T23:03:50Z,low,low,13.94,13.94,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,28fd27d6-d0e8-4b34-8247-888daeddd7f7,2019-05-10T12:44:53Z,low,low,2.23,2.23,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,ffcd0211-fbba-4b46-9444-a9eb47750e18,2020-02-20T05:25:36Z,low,low,1.45,1.45,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,0e89ca9b-ba9d-4dc1-a1fa-6dbce2bc0227,2017-12-08T20:22:57Z,low,low,3.65,3.65,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,3dea4a10-42c4-48d1-803f-be041045a79a,2017-11-10T17:46:03Z,low,low,3.73,3.73,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,6cee6c32-2153-4c3b-a905-6c717e19c69b,2021-06-12T20:34:04Z,low,low,6.14,6.14,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,15e677cc-864e-43a7-89f4-f5ca2b73e486,2018-12-30T10:08:37Z,low,low,10.59,10.59,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,692089b1-995c-4550-a8ce-f1d58756e71c,2017-07-20T03:36:27Z,low,low,2.04,2.04,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,d73a9cd3-e90c-4b79-a7c8-f8969689104b,2019-11-09T12:13:15Z,low,low,1.73,1.73,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,7520ba04-2aa9-40ec-a724-4f31ec9454b1,2015-11-08T13:46:00Z,low,low,12.73,12.73,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,de1f981c-a14a-4308-8e6e-a8b9e93dc471,2016-05-12T12:44:30Z,low,low,5.22,5.22,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,8668ef79-0f81-4bbd-b23d-a60d50d8042d,2020-08-13T18:59:53Z,low,low,0.97,0.97,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,ca7e9e7f-0af4-46ec-82f4-1bbacfbcf172,2018-05-17T09:04:49Z,low,low,18.21,18.21,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,410b90ba-1c1e-468c-a80d-811cd7779a8e,2019-01-30T11:17:17Z,low,low,10.51,10.51,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,67de8540-4ca2-4128-8914-c97faa70e290,2016-07-14T01:39:46Z,low,low,12.05,12.05,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,d7648a28-acb1-482e-9b6e-c2b4322d9bb1,2019-09-03T06:56:21Z,low,low,13.92,23.92,10.0,low->low,"[""nhs""]",[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,67041a0c-73f8-4ade-ba45-c7856c6c9493,2018-12-29T19:28:35Z,low,low,8.59,8.59,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,75b26415-2c1e-41f4-865e-25a31a6c4497,2017-01-29T12:27:00Z,low,low,4.51,4.51,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,32db2d2a-d7a8-43e6-af81-688c4f32af9b,2017-05-05T00:20:19Z,low,low,9.25,9.25,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,cea7593f-1f89-4548-9e07-e0dadf1f1c88,2019-05-16T18:09:21Z,low,low,2.21,2.21,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,e5198933-0a3b-4eb7-a46b-1d7e0fd6a6b4,2018-08-11T01:36:16Z,low,low,8.98,8.98,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,34de973e-50e5-483b-aff6-d6d2291ee0b2,2015-10-12T17:49:39Z,low,low,14.81,14.81,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,69955bb5-d5e3-446a-ad1c-e2549a1e64e6,2016-02-08T12:25:01Z,low,low,9.48,9.48,0.0,low->low,[],[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,81147bd1-0436-4bca-bfed-568bad0ee46a,2018-10-18T23:35:55Z,low,low,10.79,10.79,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,839548cf-c937-4db0-924f-8d75fb9b7985,2019-05-30T13:26:43Z,low,low,13.18,13.18,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,197227f1-c7fa-4645-bbb8-d05000e77d49,2016-03-26T18:24:48Z,low,low,18.35,18.35,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,19ed025b-70ca-4a6a-8538-d0e1817d83ea,2019-12-19T13:33:01Z,low,low,13.62,13.62,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,aa248381-6e2e-428a-abc3-1f800f33dca2,2016-08-13T20:13:41Z,low,low,10.97,10.97,0.0,low->low,[],[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,b0a68dcc-ac4b-47b1-a0d5-bae0314993e4,2019-10-23T18:01:10Z,low,low,1.78,1.78,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,13d9acab-03f8-474a-a1ea-e64da5c34873,2020-05-03T14:10:40Z,low,low,1.25,1.25,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,b43d653e-4b95-449e-9489-352177accb3c,2017-08-19T07:40:00Z,low,low,18.96,18.96,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,4c176cc3-c25a-4dea-a326-3c48fba105ef,2016-02-22T03:38:42Z,low,low,18.45,18.45,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,f7025db2-a717-4f28-b458-b5660795ca43,2019-11-23T06:32:40Z,low,low,1.69,1.69,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,3fa0a894-daa4-42e7-bd16-e276d35d30f5,2020-02-15T06:55:19Z,low,low,1.46,1.46,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,da08b0b7-9b16-48cb-8dd4-3dc93cd5267d,2019-01-18T21:49:25Z,low,low,7.54,7.54,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,a9f55695-1aff-4a9d-83fa-ee2646dd9383,2017-12-26T11:41:53Z,low,low,8.6,8.6,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,e2bbda0e-923f-4c64-ba28-07108d522dd8,2020-12-07T09:17:59Z,low,low,13.65,13.65,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,243e16a0-c1cb-4bcd-ae32-50a650545070,2020-05-21T15:56:02Z,low,low,1.2,1.2,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,c71c8366-5b76-4153-83d0-1a889a4bbfdd,2018-04-08T01:53:45Z,low,low,10.32,10.32,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,1be5b31c-59b2-4cc2-bd65-97a224bb45e9,2015-04-24T06:44:06Z,low,low,11.28,11.28,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,7e08380a-70de-4375-afda-7ca31ae4b44f,2016-02-14T02:10:00Z,low,low,18.47,18.47,0.0,low->low,[],"[""possible_ambiguity"", ""possible_political_term_non_political""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,8a763f2d-88e7-4150-ae04-d6769cb69d6a,2019-11-06T20:24:02Z,low,low,17.74,17.74,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,e3392008-d3a7-4d2e-a246-7c7fca8d76d9,2020-04-05T20:46:31Z,low,low,10.32,10.32,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,ee01c338-8d5b-476f-bc14-7cd0d9127c87,2019-06-12T03:14:01Z,low,low,22.14,22.14,0.0,low->low,[],[],"[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,38ba69e4-8640-458e-9422-5b44048d3c88,2020-05-31T01:53:35Z,low,low,1.17,1.17,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,443c935f-6659-4dae-b102-b0d54f0fd17e,2017-08-08T15:41:37Z,low,low,1.98,1.98,0.0,low->low,[],[],[]
+2021-09-01T12:00:00Z,a90ea5e5-9e51-4f24-bc1c-107eb2193bfe,2018-11-24T06:07:27Z,low,low,10.69,10.69,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2021-09-01T12:00:00Z,43da8e5a-1a92-4e87-947b-29ac6c3426c5,2019-05-01T03:24:38Z,low,low,11.26,11.26,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,4000d028-eb5a-4a31-bb36-d8f304bf0b03,2022-11-12T09:14:22Z,low,low,1.82,1.82,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,3551a28a-f089-4e25-bb6a-a06a6e3b8130,2019-11-29T08:43:51Z,low,low,4.77,4.77,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,a6604602-7a65-4bb8-8022-a5a3f45bc82b,2019-03-26T02:19:12Z,low,low,5.45,5.45,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,febce85b-54ef-4eeb-b817-d6f7de2f04d6,2021-09-01T15:00:00Z,low,low,19.76,19.76,0.0,low->low,[],"[""possible_quote""]",[]
+2024-10-05T12:00:00Z,bf40b757-8ca7-4d2e-80ae-c092a045ced7,2019-11-13T19:56:57Z,low,low,4.81,4.81,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,2a531c41-44eb-45e6-9764-d1e5007fd8fc,2023-08-21T14:58:43Z,low,low,8.04,8.04,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,04623467-4fba-4494-8bc0-1efdb47c2f36,2018-05-21T21:39:46Z,low,low,13.3,13.3,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,8750b49f-925d-4fff-89c1-7b33915b166e,2019-09-23T15:10:41Z,low,low,16.95,16.95,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,d4d77c85-0c78-44c4-a9b8-d0945aac4045,2022-08-07T23:53:13Z,low,low,0.08,0.08,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,6a986d52-2927-4feb-81e9-21fcc9b051d0,2018-11-30T21:44:31Z,low,low,15.77,15.77,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,7db374ac-bec3-488e-9c7b-e5db2c20575f,2023-11-02T00:30:25Z,low,low,0.84,0.84,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,8175a289-d806-4255-8bb4-b4b8db5378ff,2024-10-02T23:33:31Z,low,low,0.0,0.0,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,5145de2c-2ea8-40d9-88bd-7c9ddefcbc46,2018-08-08T05:04:11Z,low,low,6.08,6.08,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,69cce3a2-333e-47a1-abcd-815a381b918a,2021-04-21T09:25:59Z,low,low,9.38,9.38,0.0,low->low,[],[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,53ab103b-7804-46fa-bc41-148089f1545d,2015-08-20T05:28:29Z,low,low,17.05,17.05,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,7c6c450f-23b2-43f1-97e0-096993066a6f,2019-03-02T09:33:58Z,low,low,10.52,10.52,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,16e94edd-8a70-4a2c-b067-7b962cd4b53c,2015-07-16T04:08:08Z,low,low,17.15,17.15,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,9ac8102b-3b7a-4c06-b202-c6f4b9da6c96,2016-08-01T05:07:17Z,low,low,21.1,21.1,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,be28ef36-d924-470e-8bb2-333f6bb59601,2017-08-24T17:45:26Z,low,low,14.04,14.04,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,63e90509-e840-463f-ad75-565a860624d8,2024-01-24T08:43:47Z,low,low,7.62,7.62,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,6ff25002-27b8-4a8e-98c9-651da9c66147,2017-08-18T04:07:29Z,low,low,5.05,5.05,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,8457b309-d2ad-4c2f-be3c-937f2e8d5bda,2019-08-11T09:59:08Z,medium,medium,25.07,25.07,0.0,medium->medium,[],[],"[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,d4c7630c-99ad-42de-b5fc-caafc8ff1bde,2021-07-18T09:36:52Z,low,low,1.14,1.14,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,c4f9a7c3-ed09-44ff-861b-ebff41bc3c7e,2018-03-25T14:06:46Z,low,low,11.45,11.45,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,857a7c16-24ab-4b45-af02-94f864b69fc6,2024-06-05T09:07:47Z,low,low,0.25,0.25,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,6d2c4cb7-7df6-4dce-9818-c55fb72c5aa9,2020-11-20T02:42:06Z,low,low,3.79,3.79,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,7e44dc70-46df-45aa-8553-73da60401466,2023-08-22T12:52:28Z,low,low,11.04,11.04,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,6c113c75-47d7-4837-a448-0aa5c9b75ae2,2021-03-30T03:32:33Z,low,low,10.44,10.44,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,cfe8f684-65d1-4425-92fd-9f7c914ed47a,2016-12-14T04:40:56Z,low,low,15.73,15.73,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,d58a03b2-5742-428f-8ddc-d0da78733bcc,2023-08-19T08:17:38Z,low,low,21.05,21.05,0.0,low->low,[],[],"[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,4f1cd519-0c08-4899-95a3-0f28a47b44ac,2018-05-25T02:27:26Z,low,low,17.29,17.29,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,8a755cf3-ae1d-4664-8d5e-7d5295160a67,2023-09-12T07:47:29Z,low,low,0.98,0.98,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,7a2ac75d-bd21-4dd2-9436-bc746cc8be8c,2015-11-16T05:51:07Z,medium,medium,27.81,27.81,0.0,medium->medium,[],[],[]
+2024-10-05T12:00:00Z,4ce34a4e-7bee-4019-bd30-9d2faa7ddac6,2019-10-17T20:50:44Z,low,low,4.89,4.89,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,eb9a7bfa-998f-436f-84ec-b8674f1e5373,2023-08-19T11:33:37Z,low,low,9.05,9.05,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,925a1f0c-be67-4618-aeab-cd823681cf19,2016-08-09T02:52:58Z,low,low,8.08,8.08,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,7e3f7f9b-19fd-4722-b81a-f3a0e9cbbaf5,2019-02-25T01:35:50Z,low,low,14.53,14.53,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,61e05e80-558f-41d1-8efd-1566c01ff931,2020-04-16T17:29:08Z,low,low,16.39,16.39,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,de2c5684-f670-44a3-af76-808986593fd7,2024-06-01T03:52:08Z,low,low,13.26,13.26,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,afe3c20e-97ac-445d-9b97-3cd85aed78b2,2019-12-04T13:29:04Z,low,low,4.76,4.76,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,5bd306fb-ce97-41b8-9690-a482cb030d65,2015-10-01T22:41:41Z,low,low,6.93,6.93,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,16f37b90-2d5c-41bf-b16b-81c4b5193be7,2019-06-15T14:58:00Z,low,low,10.23,10.23,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,5d97696f-4b01-4aab-9299-8ce53fe21276,2016-03-06T01:43:05Z,low,low,20.51,20.51,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,81bc0c25-7c10-4d43-8770-a9514c31a1c3,2020-01-29T19:25:18Z,low,low,4.6,4.6,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,992c94bd-0960-45bf-b105-28f486656bbc,2018-06-06T15:25:41Z,low,low,14.25,14.25,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,db775f5b-fa34-4e1a-80de-348b6470890a,2017-12-20T06:53:48Z,low,low,6.72,6.72,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,509f1851-8f68-4d42-944e-7854687faf62,2021-09-29T11:30:01Z,low,low,2.94,2.94,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,52adf419-b138-42b0-a159-766d567093f3,2022-08-23T06:54:29Z,low,low,2.04,2.04,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,1eb626c5-9af1-4635-84a3-0c82eb3b21a7,2023-01-14T09:58:36Z,low,low,6.64,6.64,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,981db198-9d12-4c8b-9d26-7b56c90f41f2,2015-02-27T14:01:12Z,low,low,16.53,16.53,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,ecd034bc-0d7a-451f-9e7f-0c7754f3c1d9,2016-08-31T09:12:28Z,low,low,8.02,8.02,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,1052557c-f00f-405a-ba0c-193c575c034b,2017-02-26T15:36:13Z,low,low,7.53,7.53,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,8f2f69b5-5266-4604-8805-dcf98aba647f,2022-06-23T11:19:38Z,low,low,10.21,10.21,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,4a2d4a24-c67d-43b9-a86c-fcce81b9e981,2023-04-06T19:07:23Z,low,low,14.42,14.42,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,632f0edb-8958-4167-b138-cce554b9eab9,2022-06-15T08:36:24Z,low,low,2.23,2.23,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,2fa5a29b-21f9-48b8-a868-2b050669883c,2019-04-17T13:27:25Z,low,low,17.39,17.39,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,3a216d41-1889-463d-819a-6d5af4e32164,2018-07-10T20:05:00Z,low,low,6.16,6.16,0.0,low->low,[],"[""possible_ambiguity""]",[]
+2024-10-05T12:00:00Z,0690685d-ed0e-43aa-a6eb-10e3a84b7d6e,2023-08-10T10:59:37Z,low,low,16.07,16.07,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,21adcbe4-6267-45aa-bcc3-1ab105fff708,2020-05-23T22:35:34Z,low,low,18.29,18.29,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,d51ed07f-abc2-4d9a-a693-25923dc835eb,2022-09-28T03:20:12Z,low,low,1.94,1.94,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,c112e7ea-fd27-4587-a4f7-b0edbf7f00ca,2022-04-30T04:40:08Z,low,low,2.35,2.35,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,8c230c5c-dbc6-4a48-8ff7-232c6d09453f,2023-07-28T17:52:18Z,low,low,1.11,1.11,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,fdb7e43a-1a66-4436-a192-98cf9cf01b86,2015-06-04T00:24:39Z,low,low,15.26,15.26,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,9d71328f-5a19-4ed1-8a50-f0059bd46ded,2017-07-23T09:17:45Z,low,low,15.13,15.13,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,889ed15a-3847-4958-917e-8df684e89856,2016-08-15T16:51:28Z,low,low,14.06,14.06,0.0,low->low,[],[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,6a0caa2c-7b3a-4019-8058-b6dcaf49f4ee,2021-11-28T06:19:06Z,low,low,2.77,2.77,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,6cbb364f-7b6b-45af-bb32-cd7759a6aa20,2016-08-02T04:21:51Z,low,low,8.1,8.1,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,c96650a0-fa0b-427d-9099-52f8171514f6,2020-11-14T12:36:47Z,low,low,1.81,1.81,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,3433af0f-a1a4-4b7e-a6e2-e7981de72121,2016-07-21T11:39:09Z,low,low,22.13,22.13,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,1421724c-135c-4143-adab-f5d2686b7aa2,2023-06-11T07:11:19Z,low,low,1.24,1.24,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,902763c3-4c9f-4317-a049-d9de415841f8,2023-01-02T14:10:05Z,low,low,1.67,1.67,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,50406738-d013-4265-805e-b0330ced0b69,2015-07-05T03:41:01Z,low,low,22.18,22.18,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,f2331f6c-83c9-4327-850e-323acdacd690,2022-08-25T16:37:01Z,low,low,2.03,2.03,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,ecc9282d-262f-4483-b217-b71b59172dc7,2016-04-12T21:27:17Z,low,low,14.4,14.4,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,799f87f7-13a8-424f-bc26-803a937a1bf5,2015-06-10T16:10:00Z,low,low,19.24,19.24,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,67d1c487-06cc-4c59-831a-c4c0dc1e1da6,2018-02-01T05:09:27Z,low,low,13.6,13.6,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,791c47fd-6c7d-4a16-9584-96f016af330f,2020-01-18T16:16:42Z,low,low,12.63,12.63,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,c3e26e9e-dd8e-4678-b0fc-7f1f9a5ed433,2017-03-12T06:39:53Z,medium,medium,25.49,25.49,0.0,medium->medium,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,6b012ba5-767e-431c-9e9f-844178d3a174,2023-06-20T09:31:09Z,low,low,1.21,1.21,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,22824385-d175-437e-bbee-6b2d92ad16be,2021-06-12T22:58:53Z,low,low,3.23,3.23,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,3bca185e-33b8-46b7-9382-6458cc51e557,2020-10-19T06:05:38Z,low,low,3.88,3.88,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,b36a6506-29de-4821-84b8-7ac8f1cb8e83,2023-07-06T12:31:41Z,low,low,20.17,20.17,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,f90322ce-c646-4e89-929c-30002264f0cb,2019-07-04T21:47:39Z,low,low,5.18,5.18,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,b164d86f-e935-41da-bbc0-d068c16b429a,2017-03-10T11:40:29Z,low,low,12.5,12.5,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,14e95486-2e0f-4955-b0f9-3075b29cf4a3,2019-11-23T06:24:21Z,low,low,11.79,11.79,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,b47df004-5911-4c1a-b82f-3302bb29edb8,2020-11-04T01:09:10Z,low,low,10.84,10.84,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,c2624266-2b11-4efc-86db-541ec27e9c1e,2021-02-20T12:47:26Z,low,low,18.54,18.54,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,585a4a94-8b6b-46df-b7b5-264179f34ba3,2018-08-22T16:01:35Z,low,low,21.04,21.04,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,6b1b608e-5ddf-408d-9958-86a5b9bdfc00,2022-09-18T09:26:42Z,low,low,16.97,16.97,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,3995af12-2287-4de1-be73-4c814b7ec465,2021-11-30T08:51:27Z,low,low,7.77,7.77,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,c733cdbb-d694-403c-afbb-244db65a63fa,2015-11-11T06:48:51Z,low,low,8.82,8.82,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,5800f10e-26b4-4950-9bf7-10272d531eb9,2024-03-09T07:53:15Z,low,low,8.49,8.49,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,0751b967-4a4c-4121-a0cc-d72b1b1659d2,2021-04-11T05:38:08Z,low,low,3.41,3.41,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,bbb25a62-aa6e-4def-9772-4c871a588476,2020-10-14T21:11:33Z,low,low,8.89,8.89,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,1a300cce-0a61-4691-b0f5-536852c95255,2021-10-13T12:55:50Z,low,low,18.9,18.9,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,9b0f3f08-d82b-498d-817b-acc9e733564a,2022-08-27T17:18:58Z,low,low,14.02,14.02,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,ce1200f0-70d9-4e5f-a0fb-d50196f9d287,2018-09-24T19:28:55Z,low,low,5.95,5.95,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,05ed583b-5dbc-4182-98d0-94c3dd76d5af,2016-02-14T13:29:18Z,low,low,8.56,8.56,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,cb73d39d-3ce7-40cc-9b62-0435d624904a,2017-09-16T05:18:10Z,low,low,13.98,13.98,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,9ffdd62c-c4dc-401d-89ef-cbd14921e5d4,2022-03-13T11:26:53Z,low,low,12.48,12.48,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,48099ef8-4655-4d4c-ae14-027935e6d46b,2021-04-07T21:29:52Z,low,low,16.41,16.41,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,168d8964-6f1e-44b5-9e1f-c3ac7bcad634,2019-01-23T03:25:47Z,low,low,14.62,14.62,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,ca0b8cf8-471b-4c78-a29a-fbb29d9de983,2021-12-12T15:57:54Z,low,low,6.73,16.33,9.6,low->low,"[""online safety""]",[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,5927a685-482b-427b-8e20-08a26115128b,2021-02-24T05:37:16Z,low,low,9.53,9.53,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,1622c023-236d-4665-92be-53dd35bd30dd,2020-02-17T23:16:08Z,low,low,9.55,9.55,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,cd3ef55a-6fb1-4cc9-9d69-06814d5d4637,2021-04-02T22:40:36Z,low,low,1.43,1.43,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,d806773a-1044-4e0e-bfe5-b4a4d98f4ee8,2022-06-25T14:11:07Z,low,low,13.2,13.2,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,52221700-c258-412e-aedd-0925b39fb40f,2017-09-23T03:30:31Z,low,low,17.96,17.96,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,5e2949c0-3944-4263-b534-a62cdd803bbf,2019-11-11T13:53:15Z,low,low,4.82,4.82,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,6384033d-b145-4974-ab31-cd22f4922448,2024-04-15T19:28:16Z,low,low,7.39,7.39,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,7c4c1985-4e05-47ef-93ee-ba590aa5d1b4,2021-03-07T12:52:59Z,low,low,18.5,18.5,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,a1783b77-7063-47ae-8305-6c2357c32e9e,2015-06-05T11:56:45Z,low,low,7.26,7.26,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,8a6aa6b0-f7b6-474e-ae59-d83d2ca0d183,2021-07-21T12:30:20Z,low,low,3.13,3.13,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,c138bdcb-ad62-4514-bae9-3c7ef64a8e37,2022-12-18T04:18:59Z,low,low,0.0,0.0,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,23d73164-9c8e-4844-84bf-fe1d1c828b80,2024-05-21T00:32:51Z,low,low,8.29,8.29,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,1214f57e-ebac-4822-aaf8-a7c0e0c28acd,2020-03-15T11:30:00Z,low,low,11.48,11.48,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,4313a161-1eb6-44c8-a98f-a11aeeac073e,2017-06-14T18:00:49Z,low,low,7.23,7.23,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,cac1bba4-d116-4808-8a8f-e201f51aa3a3,2019-11-12T09:15:00Z,low,low,2.82,2.82,0.0,low->low,[],"[""possible_sarcasm""]",[]
+2024-10-05T12:00:00Z,00ed6e7c-d574-4acf-b900-7f4abeffc317,2016-02-13T03:14:42Z,low,low,19.57,19.57,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,0d03acb9-e1e9-4cbd-9061-d40ac050ebaf,2023-03-20T21:57:05Z,low,low,1.46,1.46,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,9dc5e13b-cc29-4f20-ae4a-4fa975630694,2022-05-12T04:42:53Z,low,low,11.32,11.32,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,3da944f6-cdd1-403c-8d8e-270ef1bc5e02,2021-04-01T12:57:33Z,low,low,10.43,10.43,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,867509fc-fdec-4f7a-a78e-96c9b5b51b98,2016-07-01T14:52:50Z,low,low,8.18,8.18,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,77fdafa4-db6b-4aba-918e-f62020550ec5,2018-04-15T01:36:06Z,low,low,11.4,11.4,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,cb61b3c2-5d00-4f6a-a528-072f0d0eb39b,2015-06-29T21:48:42Z,low,low,14.19,14.19,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,52fb8f82-0a3e-40ac-aaa5-4052c3c088dd,2019-01-27T21:43:02Z,medium,medium,24.61,24.61,0.0,medium->medium,[],[],[]
+2024-10-05T12:00:00Z,d9449d0b-0f24-4176-b89a-63dbb4d6800d,2018-05-03T18:22:00Z,low,low,11.35,11.35,0.0,low->low,[],"[""possible_quote""]",[]
+2024-10-05T12:00:00Z,b47a6740-ee6f-477e-909f-6057c8e60f08,2024-07-23T00:12:15Z,low,low,0.0,0.0,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,cb1ae94d-485e-4fd2-8ae2-a1008e353c27,2023-08-03T13:58:32Z,low,low,7.09,7.09,0.0,low->low,[],[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,d284254b-7daf-4390-a378-d69216ea754a,2023-05-05T10:11:24Z,low,low,5.34,14.94,9.6,low->low,"[""online safety""]",[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,97464533-d351-4025-b5a9-9e3de4709c67,2021-11-30T10:57:16Z,low,low,2.77,2.77,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,4371f32b-1abd-4f99-8304-f3d29bf721a2,2022-02-23T16:20:35Z,low,low,2.53,2.53,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,cc42d291-84b5-458f-97cb-7080ab5830a6,2018-01-20T00:15:46Z,low,low,6.63,6.63,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,9cee763e-e27b-42b0-9bcf-48a17f1c1a51,2017-03-30T20:57:56Z,low,low,7.44,7.44,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,c5e1305b-1edb-453b-bb3b-0337aa41b552,2019-09-15T02:36:47Z,low,low,4.98,4.98,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,1c16eda8-1d54-4756-8858-a61d005f24a8,2023-12-19T06:06:34Z,low,low,0.72,0.72,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,9ab36d7b-3875-47dc-bfa7-43d35e7dda0b,2022-05-30T13:34:33Z,low,low,2.27,2.27,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,b5861022-4dcf-47ba-a986-6e2c4f1ef139,2018-07-11T05:32:46Z,low,low,13.16,13.16,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,b3ce07ca-9af2-43a5-84d0-7203aab0526b,2017-04-14T10:56:33Z,low,low,15.4,15.4,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,b5847450-ef89-46ea-bea7-cc4278b8c39f,2017-09-30T19:56:18Z,low,low,6.93,6.93,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,15bdda15-152e-4167-9fc2-2118426e9f34,2019-03-29T11:08:24Z,low,low,10.44,10.44,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,7c08eb2c-c02e-4710-805e-5f5ec20c17b7,2016-11-09T17:02:54Z,low,low,17.82,17.82,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,5d5fdefd-e041-405f-93b9-0e5c94f5a910,2021-07-08T02:21:46Z,low,low,3.16,3.16,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,72cefd95-9a96-4531-b89d-fd3aa17036da,2019-11-23T06:44:33Z,low,low,9.79,9.79,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,d05d6b01-cb8a-4d33-bf4c-77a95f627745,2020-10-12T21:52:09Z,low,low,14.9,14.9,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,7f00519b-9e77-4d5c-986e-28c11b93b36f,2021-06-29T07:11:32Z,low,low,8.19,8.19,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,0909e31a-be92-4a1e-b35c-8246809c77ba,2019-08-23T23:03:50Z,low,low,17.04,17.04,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,5eb73bdf-3a5f-4658-b191-7c8d2f078395,2022-05-25T12:53:39Z,low,low,2.28,2.28,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,f896d990-e563-4c2e-9292-64a2ec0b8eb0,2023-08-07T17:20:29Z,low,low,6.08,6.08,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,28fd27d6-d0e8-4b34-8247-888daeddd7f7,2019-05-10T12:44:53Z,low,low,5.33,5.33,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,ffcd0211-fbba-4b46-9444-a9eb47750e18,2020-02-20T05:25:36Z,low,low,4.55,4.55,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,0e89ca9b-ba9d-4dc1-a1fa-6dbce2bc0227,2017-12-08T20:22:57Z,low,low,6.75,6.75,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,3dea4a10-42c4-48d1-803f-be041045a79a,2017-11-10T17:46:03Z,low,low,6.82,6.82,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,6cee6c32-2153-4c3b-a905-6c717e19c69b,2021-06-12T20:34:04Z,low,low,9.23,9.23,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,15e677cc-864e-43a7-89f4-f5ca2b73e486,2018-12-30T10:08:37Z,low,low,13.69,13.69,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,00b108ce-3c3c-4a3f-9cb3-4a4c5558f1c2,2024-02-27T09:16:05Z,low,low,0.52,0.52,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,87c4b935-674e-42d6-8e56-e5e456bdf354,2024-02-15T00:07:44Z,low,low,0.56,0.56,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,692089b1-995c-4550-a8ce-f1d58756e71c,2017-07-20T03:36:27Z,low,low,5.13,5.13,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,d73a9cd3-e90c-4b79-a7c8-f8969689104b,2019-11-09T12:13:15Z,low,low,4.82,4.82,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,e274d174-476a-447a-b895-7a1ba7c0a5db,2022-01-20T10:00:00Z,low,low,10.63,10.63,0.0,low->low,[],"[""possible_ambiguity"", ""possible_political_term_non_political""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,7520ba04-2aa9-40ec-a724-4f31ec9454b1,2015-11-08T13:46:00Z,low,low,15.83,15.83,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,de1f981c-a14a-4308-8e6e-a8b9e93dc471,2016-05-12T12:44:30Z,low,low,8.32,8.32,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,8668ef79-0f81-4bbd-b23d-a60d50d8042d,2020-08-13T18:59:53Z,low,low,4.06,4.06,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,ca7e9e7f-0af4-46ec-82f4-1bbacfbcf172,2018-05-17T09:04:49Z,low,low,21.31,21.31,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,17670b89-cced-47d6-811a-cd665676ec18,2022-04-24T14:26:26Z,low,low,2.37,2.37,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,410b90ba-1c1e-468c-a80d-811cd7779a8e,2019-01-30T11:17:17Z,low,low,13.6,13.6,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,67de8540-4ca2-4128-8914-c97faa70e290,2016-07-14T01:39:46Z,low,low,15.15,15.15,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,d7648a28-acb1-482e-9b6e-c2b4322d9bb1,2019-09-03T06:56:21Z,low,low,17.01,17.01,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,cb6469ce-acb7-4250-abea-9e368eb632cc,2023-07-20T13:17:00Z,low,low,1.13,1.13,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,2d63e04d-85ee-4842-8f53-69e8ac1335fe,2022-09-06T20:44:56Z,low,low,2.0,2.0,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,67041a0c-73f8-4ade-ba45-c7856c6c9493,2018-12-29T19:28:35Z,low,low,11.69,11.69,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,75b26415-2c1e-41f4-865e-25a31a6c4497,2017-01-29T12:27:00Z,low,low,7.6,7.6,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,eb1aba69-993b-4847-a8f5-ccb69b556a56,2022-03-22T17:58:41Z,low,low,12.46,12.46,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,32db2d2a-d7a8-43e6-af81-688c4f32af9b,2017-05-05T00:20:19Z,low,low,12.34,12.34,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,cea7593f-1f89-4548-9e07-e0dadf1f1c88,2019-05-16T18:09:21Z,low,low,5.31,5.31,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,e5198933-0a3b-4eb7-a46b-1d7e0fd6a6b4,2018-08-11T01:36:16Z,low,low,12.07,12.07,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,34de973e-50e5-483b-aff6-d6d2291ee0b2,2015-10-12T17:49:39Z,low,low,17.9,17.9,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,69955bb5-d5e3-446a-ad1c-e2549a1e64e6,2016-02-08T12:25:01Z,low,low,12.58,22.18,9.6,low->low,"[""online safety""]",[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,81147bd1-0436-4bca-bfed-568bad0ee46a,2018-10-18T23:35:55Z,low,low,13.88,13.88,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,839548cf-c937-4db0-924f-8d75fb9b7985,2019-05-30T13:26:43Z,low,low,16.27,16.27,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,ddd021c2-b276-4696-9326-671d44a2970c,2024-10-05T08:00:00Z,low,low,4.0,21.6,17.6,low->low,"[""online safety"", ""ai chatbots""]",[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,197227f1-c7fa-4645-bbb8-d05000e77d49,2016-03-26T18:24:48Z,low,low,21.45,21.45,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,d7d6997e-b872-4807-b3eb-686ed7153290,2024-01-10T18:22:12Z,low,low,8.65,8.65,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,19ed025b-70ca-4a6a-8538-d0e1817d83ea,2019-12-19T13:33:01Z,low,low,16.72,16.72,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,aa248381-6e2e-428a-abc3-1f800f33dca2,2016-08-13T20:13:41Z,low,low,14.07,14.07,0.0,low->low,[],[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,b0a68dcc-ac4b-47b1-a0d5-bae0314993e4,2019-10-23T18:01:10Z,low,low,4.87,4.87,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,13d9acab-03f8-474a-a1ea-e64da5c34873,2020-05-03T14:10:40Z,low,low,4.34,4.34,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,b43d653e-4b95-449e-9489-352177accb3c,2017-08-19T07:40:00Z,low,low,22.05,22.05,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,4c176cc3-c25a-4dea-a326-3c48fba105ef,2016-02-22T03:38:42Z,low,low,21.54,21.54,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,f7025db2-a717-4f28-b458-b5660795ca43,2019-11-23T06:32:40Z,low,low,4.79,4.79,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,bbfc3e46-883c-4d3d-bc8d-f237cf81acd6,2024-06-07T19:06:35Z,low,low,0.24,0.24,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,3fa0a894-daa4-42e7-bd16-e276d35d30f5,2020-02-15T06:55:19Z,low,low,4.56,4.56,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,da08b0b7-9b16-48cb-8dd4-3dc93cd5267d,2019-01-18T21:49:25Z,low,low,10.63,10.63,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,a9f55695-1aff-4a9d-83fa-ee2646dd9383,2017-12-26T11:41:53Z,low,low,11.7,11.7,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,f3315e01-a3b5-4313-97f0-7c754f432e90,2021-10-24T07:46:04Z,low,low,0.87,0.87,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,e2bbda0e-923f-4c64-ba28-07108d522dd8,2020-12-07T09:17:59Z,low,low,16.75,16.75,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,6ac057d3-d2b6-4006-8767-65c0dd4d1ce7,2024-08-17T13:27:07Z,low,low,0.0,0.0,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,d25720cf-e502-4320-9bd2-25dd5d73e22a,2022-01-11T19:56:42Z,low,low,0.65,0.65,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,36efc4fd-ffef-4bf2-9ff0-fb29f627f2bb,2022-02-09T15:31:29Z,low,low,10.57,10.57,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,243e16a0-c1cb-4bcd-ae32-50a650545070,2020-05-21T15:56:02Z,low,low,4.29,4.29,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,c71c8366-5b76-4153-83d0-1a889a4bbfdd,2018-04-08T01:53:45Z,low,low,13.42,13.42,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,1be5b31c-59b2-4cc2-bd65-97a224bb45e9,2015-04-24T06:44:06Z,low,low,14.38,14.38,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,7e08380a-70de-4375-afda-7ca31ae4b44f,2016-02-14T02:10:00Z,low,low,21.56,21.56,0.0,low->low,[],"[""possible_ambiguity"", ""possible_political_term_non_political""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,8a763f2d-88e7-4150-ae04-d6769cb69d6a,2019-11-06T20:24:02Z,low,low,20.83,20.83,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,e3392008-d3a7-4d2e-a246-7c7fca8d76d9,2020-04-05T20:46:31Z,low,low,13.42,13.42,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,ee01c338-8d5b-476f-bc14-7cd0d9127c87,2019-06-12T03:14:01Z,medium,medium,25.24,25.24,0.0,medium->medium,[],[],"[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,38ba69e4-8640-458e-9422-5b44048d3c88,2020-05-31T01:53:35Z,low,low,4.27,4.27,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,443c935f-6659-4dae-b102-b0d54f0fd17e,2017-08-08T15:41:37Z,low,low,5.08,5.08,0.0,low->low,[],[],[]
+2024-10-05T12:00:00Z,a90ea5e5-9e51-4f24-bc1c-107eb2193bfe,2018-11-24T06:07:27Z,low,low,13.79,13.79,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,88a3920c-b9e2-4e11-9aca-07b76bd9cadc,2021-09-17T19:13:24Z,low,low,9.97,9.97,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2024-10-05T12:00:00Z,43da8e5a-1a92-4e87-947b-29ac6c3426c5,2019-05-01T03:24:38Z,low,low,14.35,14.35,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,4000d028-eb5a-4a31-bb36-d8f304bf0b03,2022-11-12T09:14:22Z,low,low,3.22,3.22,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,3551a28a-f089-4e25-bb6a-a06a6e3b8130,2019-11-29T08:43:51Z,low,low,6.18,6.18,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,a6604602-7a65-4bb8-8022-a5a3f45bc82b,2019-03-26T02:19:12Z,low,low,6.86,6.86,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,febce85b-54ef-4eeb-b817-d6f7de2f04d6,2021-09-01T15:00:00Z,low,low,21.17,21.17,0.0,low->low,[],"[""possible_quote""]",[]
+2026-03-02T12:00:00Z,91380437-5ac7-49a0-87d6-1c67c2006919,2025-09-03T21:20:07Z,low,low,8.41,8.41,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,bf40b757-8ca7-4d2e-80ae-c092a045ced7,2019-11-13T19:56:57Z,low,low,6.22,6.22,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,2a531c41-44eb-45e6-9764-d1e5007fd8fc,2023-08-21T14:58:43Z,low,low,9.45,9.45,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,04623467-4fba-4494-8bc0-1efdb47c2f36,2018-05-21T21:39:46Z,low,low,14.7,14.7,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,3207077c-bfb7-4c19-856b-04d64fbb30a3,2025-02-26T01:36:49Z,low,low,20.93,20.93,0.0,low->low,[],[],"[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,8750b49f-925d-4fff-89c1-7b33915b166e,2019-09-23T15:10:41Z,low,low,18.36,18.36,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,d4d77c85-0c78-44c4-a9b8-d0945aac4045,2022-08-07T23:53:13Z,low,low,1.48,1.48,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,54a7329b-aaad-46e5-9412-a52afc379647,2025-12-11T13:54:58Z,low,low,12.14,12.14,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,6a986d52-2927-4feb-81e9-21fcc9b051d0,2018-11-30T21:44:31Z,low,low,17.17,17.17,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,7db374ac-bec3-488e-9c7b-e5db2c20575f,2023-11-02T00:30:25Z,low,low,2.25,2.25,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,8175a289-d806-4255-8bb4-b4b8db5378ff,2024-10-02T23:33:31Z,low,low,1.33,1.33,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,5145de2c-2ea8-40d9-88bd-7c9ddefcbc46,2018-08-08T05:04:11Z,low,low,7.49,7.49,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,69cce3a2-333e-47a1-abcd-815a381b918a,2021-04-21T09:25:59Z,low,low,10.78,20.38,9.6,low->low,"[""age verification""]",[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,affd5b13-dbe4-4472-b088-42e3ccdf0a0a,2025-01-03T14:57:16Z,low,low,1.07,1.07,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,53ab103b-7804-46fa-bc41-148089f1545d,2015-08-20T05:28:29Z,low,low,18.0,18.0,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,7c6c450f-23b2-43f1-97e0-096993066a6f,2019-03-02T09:33:58Z,low,low,11.92,11.92,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,16e94edd-8a70-4a2c-b067-7b962cd4b53c,2015-07-16T04:08:08Z,low,low,18.0,18.0,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,9ac8102b-3b7a-4c06-b202-c6f4b9da6c96,2016-08-01T05:07:17Z,low,low,22.51,22.51,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,be28ef36-d924-470e-8bb2-333f6bb59601,2017-08-24T17:45:26Z,low,low,15.44,15.44,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,63e90509-e840-463f-ad75-565a860624d8,2024-01-24T08:43:47Z,low,low,9.02,9.02,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,6ff25002-27b8-4a8e-98c9-651da9c66147,2017-08-18T04:07:29Z,low,low,6.46,6.46,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,8457b309-d2ad-4c2f-be3c-937f2e8d5bda,2019-08-11T09:59:08Z,medium,medium,26.48,26.48,0.0,medium->medium,[],[],"[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,8fff6c89-cf5c-4601-a3f0-39842bf44409,2025-12-22T21:39:43Z,low,low,0.11,0.11,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,8d2e09dd-ba9b-4b2f-82a4-14c8d89152ea,2025-10-01T19:57:05Z,low,low,0.33,0.33,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,d4c7630c-99ad-42de-b5fc-caafc8ff1bde,2021-07-18T09:36:52Z,low,low,2.54,2.54,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,c4f9a7c3-ed09-44ff-861b-ebff41bc3c7e,2018-03-25T14:06:46Z,low,low,12.86,12.86,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,857a7c16-24ab-4b45-af02-94f864b69fc6,2024-06-05T09:07:47Z,low,low,1.66,1.66,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,6d2c4cb7-7df6-4dce-9818-c55fb72c5aa9,2020-11-20T02:42:06Z,low,low,5.2,5.2,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,7e44dc70-46df-45aa-8553-73da60401466,2023-08-22T12:52:28Z,low,low,12.44,12.44,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,6c113c75-47d7-4837-a448-0aa5c9b75ae2,2021-03-30T03:32:33Z,low,low,11.84,11.84,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,cfe8f684-65d1-4425-92fd-9f7c914ed47a,2016-12-14T04:40:56Z,low,low,17.14,17.14,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,d58a03b2-5742-428f-8ddc-d0da78733bcc,2023-08-19T08:17:38Z,low,low,22.45,22.45,0.0,low->low,[],[],"[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,4f1cd519-0c08-4899-95a3-0f28a47b44ac,2018-05-25T02:27:26Z,low,low,18.69,18.69,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,8a755cf3-ae1d-4664-8d5e-7d5295160a67,2023-09-12T07:47:29Z,low,low,2.39,2.39,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,7a2ac75d-bd21-4dd2-9436-bc746cc8be8c,2015-11-16T05:51:07Z,medium,medium,29.0,29.0,0.0,medium->medium,[],[],[]
+2026-03-02T12:00:00Z,4ce34a4e-7bee-4019-bd30-9d2faa7ddac6,2019-10-17T20:50:44Z,low,low,6.29,6.29,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,16c0ccbc-8884-44bc-a0b9-ff2fe77fc065,2025-11-29T20:30:49Z,low,low,0.17,0.17,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,3d865d1b-73d8-415b-9fcc-ad24f66e60b1,2025-05-16T02:45:02Z,low,low,5.71,5.71,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,eb9a7bfa-998f-436f-84ec-b8674f1e5373,2023-08-19T11:33:37Z,low,low,10.45,10.45,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,925a1f0c-be67-4618-aeab-cd823681cf19,2016-08-09T02:52:58Z,low,low,9.48,9.48,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,680e1968-cbbd-4b87-aebe-f14b40cf02b8,2026-01-22T20:30:54Z,low,low,7.02,7.02,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,7e3f7f9b-19fd-4722-b81a-f3a0e9cbbaf5,2019-02-25T01:35:50Z,low,low,15.94,15.94,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,f8074544-8b21-4b7a-81a7-40716679df51,2026-01-21T04:50:25Z,low,low,12.03,12.03,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,61e05e80-558f-41d1-8efd-1566c01ff931,2020-04-16T17:29:08Z,low,low,17.79,17.79,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,de2c5684-f670-44a3-af76-808986593fd7,2024-06-01T03:52:08Z,low,low,14.67,14.67,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,afe3c20e-97ac-445d-9b97-3cd85aed78b2,2019-12-04T13:29:04Z,low,low,6.16,6.16,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,5bd306fb-ce97-41b8-9690-a482cb030d65,2015-10-01T22:41:41Z,low,low,8.0,8.0,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,16f37b90-2d5c-41bf-b16b-81c4b5193be7,2019-06-15T14:58:00Z,low,low,11.63,11.63,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,5d97696f-4b01-4aab-9299-8ce53fe21276,2016-03-06T01:43:05Z,low,low,21.91,21.91,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,81bc0c25-7c10-4d43-8770-a9514c31a1c3,2020-01-29T19:25:18Z,low,low,6.01,6.01,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,134feca3-7846-42a8-8172-97caffc60493,2025-03-13T09:39:56Z,low,low,0.89,0.89,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,992c94bd-0960-45bf-b105-28f486656bbc,2018-06-06T15:25:41Z,low,low,15.66,15.66,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,db775f5b-fa34-4e1a-80de-348b6470890a,2017-12-20T06:53:48Z,low,low,8.12,8.12,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,509f1851-8f68-4d42-944e-7854687faf62,2021-09-29T11:30:01Z,low,low,4.34,4.34,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,58c05d08-6a14-4ca7-9af1-2111cd4cbfdf,2025-11-07T14:01:02Z,low,low,5.23,5.23,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,52adf419-b138-42b0-a159-766d567093f3,2022-08-23T06:54:29Z,low,low,3.44,3.44,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,1eb626c5-9af1-4635-84a3-0c82eb3b21a7,2023-01-14T09:58:36Z,low,low,8.05,8.05,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,981db198-9d12-4c8b-9d26-7b56c90f41f2,2015-02-27T14:01:12Z,low,low,17.0,17.0,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,ecd034bc-0d7a-451f-9e7f-0c7754f3c1d9,2016-08-31T09:12:28Z,low,low,9.42,9.42,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,1052557c-f00f-405a-ba0c-193c575c034b,2017-02-26T15:36:13Z,low,low,8.93,8.93,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,fbbf0e42-b2f7-4cd3-8adc-df6d30bbd4ac,2025-07-23T15:45:09Z,low,low,5.52,5.52,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,8f2f69b5-5266-4604-8805-dcf98aba647f,2022-06-23T11:19:38Z,low,low,11.61,11.61,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,4a2d4a24-c67d-43b9-a86c-fcce81b9e981,2023-04-06T19:07:23Z,low,low,15.82,15.82,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,632f0edb-8958-4167-b138-cce554b9eab9,2022-06-15T08:36:24Z,low,low,3.63,3.63,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,a22e9fef-615f-40bb-b6c7-c8740ffb36dd,2025-11-26T22:58:26Z,low,low,0.0,0.0,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,2fa5a29b-21f9-48b8-a868-2b050669883c,2019-04-17T13:27:25Z,low,low,18.79,18.79,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,3a216d41-1889-463d-819a-6d5af4e32164,2018-07-10T20:05:00Z,low,low,7.56,7.56,0.0,low->low,[],"[""possible_ambiguity""]",[]
+2026-03-02T12:00:00Z,0690685d-ed0e-43aa-a6eb-10e3a84b7d6e,2023-08-10T10:59:37Z,low,low,17.48,17.48,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,21adcbe4-6267-45aa-bcc3-1ab105fff708,2020-05-23T22:35:34Z,low,low,19.69,19.69,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,268173b4-eea8-49a0-a9e6-122d6ba24d60,2025-05-27T14:13:02Z,low,low,0.68,0.68,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,d51ed07f-abc2-4d9a-a693-25923dc835eb,2022-09-28T03:20:12Z,low,low,3.35,3.35,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,7ef28c7d-e041-4694-a29b-a717c3edb468,2025-02-28T03:50:43Z,low,low,0.92,0.92,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,c112e7ea-fd27-4587-a4f7-b0edbf7f00ca,2022-04-30T04:40:08Z,low,low,3.76,3.76,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,8c230c5c-dbc6-4a48-8ff7-232c6d09453f,2023-07-28T17:52:18Z,low,low,2.51,2.51,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,fdb7e43a-1a66-4436-a192-98cf9cf01b86,2015-06-04T00:24:39Z,low,low,16.0,16.0,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,9d71328f-5a19-4ed1-8a50-f0059bd46ded,2017-07-23T09:17:45Z,low,low,16.53,16.53,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,889ed15a-3847-4958-917e-8df684e89856,2016-08-15T16:51:28Z,low,medium,15.47,25.07,9.6,low->medium,"[""content moderation""]",[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,6a0caa2c-7b3a-4019-8058-b6dcaf49f4ee,2021-11-28T06:19:06Z,low,low,4.18,4.18,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,6cbb364f-7b6b-45af-bb32-cd7759a6aa20,2016-08-02T04:21:51Z,low,low,9.5,9.5,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,c96650a0-fa0b-427d-9099-52f8171514f6,2020-11-14T12:36:47Z,low,low,3.21,3.21,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,d209797e-6f6e-4a3f-b05d-8ee5446eae2e,2025-10-23T06:18:03Z,low,low,10.27,10.27,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,3433af0f-a1a4-4b7e-a6e2-e7981de72121,2016-07-21T11:39:09Z,low,low,23.54,23.54,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,1421724c-135c-4143-adab-f5d2686b7aa2,2023-06-11T07:11:19Z,low,low,2.64,2.64,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,d6117418-3a5e-4eae-aef5-08c49b400feb,2024-12-04T21:17:54Z,low,low,8.16,8.16,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,902763c3-4c9f-4317-a049-d9de415841f8,2023-01-02T14:10:05Z,low,low,3.08,3.08,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,50406738-d013-4265-805e-b0330ced0b69,2015-07-05T03:41:01Z,low,low,23.0,23.0,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,f2331f6c-83c9-4327-850e-323acdacd690,2022-08-25T16:37:01Z,low,low,3.44,3.44,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,ecc9282d-262f-4483-b217-b71b59172dc7,2016-04-12T21:27:17Z,low,low,15.81,15.81,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,799f87f7-13a8-424f-bc26-803a937a1bf5,2015-06-10T16:10:00Z,low,low,20.0,20.0,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,67d1c487-06cc-4c59-831a-c4c0dc1e1da6,2018-02-01T05:09:27Z,low,low,15.0,15.0,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,791c47fd-6c7d-4a16-9584-96f016af330f,2020-01-18T16:16:42Z,low,low,14.04,14.04,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,c3e26e9e-dd8e-4678-b0fc-7f1f9a5ed433,2017-03-12T06:39:53Z,medium,medium,26.9,26.9,0.0,medium->medium,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,b64cc2fc-8a41-442d-b197-8f527bd00afb,2024-10-25T11:37:52Z,low,low,7.27,16.87,9.6,low->low,"[""age verification""]",[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,6b012ba5-767e-431c-9e9f-844178d3a174,2023-06-20T09:31:09Z,low,low,2.62,2.62,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,22824385-d175-437e-bbee-6b2d92ad16be,2021-06-12T22:58:53Z,low,low,4.64,4.64,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,3bca185e-33b8-46b7-9382-6458cc51e557,2020-10-19T06:05:38Z,low,low,5.29,5.29,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,b36a6506-29de-4821-84b8-7ac8f1cb8e83,2023-07-06T12:31:41Z,low,low,21.57,21.57,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,f90322ce-c646-4e89-929c-30002264f0cb,2019-07-04T21:47:39Z,low,low,6.58,6.58,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,b164d86f-e935-41da-bbc0-d068c16b429a,2017-03-10T11:40:29Z,low,low,13.9,13.9,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,14e95486-2e0f-4955-b0f9-3075b29cf4a3,2019-11-23T06:24:21Z,low,low,13.19,13.19,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,b47df004-5911-4c1a-b82f-3302bb29edb8,2020-11-04T01:09:10Z,low,low,12.24,12.24,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,2cf4049b-6a79-468a-aab2-18ae2ed2f26c,2025-02-21T04:52:43Z,low,low,0.0,0.0,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,c2624266-2b11-4efc-86db-541ec27e9c1e,2021-02-20T12:47:26Z,low,low,19.95,19.95,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,585a4a94-8b6b-46df-b7b5-264179f34ba3,2018-08-22T16:01:35Z,low,low,22.45,22.45,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,6b1b608e-5ddf-408d-9958-86a5b9bdfc00,2022-09-18T09:26:42Z,low,low,18.37,18.37,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,3995af12-2287-4de1-be73-4c814b7ec465,2021-11-30T08:51:27Z,low,low,9.17,9.17,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,c733cdbb-d694-403c-afbb-244db65a63fa,2015-11-11T06:48:51Z,low,low,10.0,10.0,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,5800f10e-26b4-4950-9bf7-10272d531eb9,2024-03-09T07:53:15Z,low,low,9.9,9.9,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,0751b967-4a4c-4121-a0cc-d72b1b1659d2,2021-04-11T05:38:08Z,low,low,4.81,4.81,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,20ec06fd-bc8c-4179-bde3-c29aeb4c7a99,2025-06-17T07:03:02Z,low,low,13.62,13.62,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,bbb25a62-aa6e-4def-9772-4c871a588476,2020-10-14T21:11:33Z,low,low,10.3,10.3,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,1a300cce-0a61-4691-b0f5-536852c95255,2021-10-13T12:55:50Z,low,low,20.3,20.3,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,9b0f3f08-d82b-498d-817b-acc9e733564a,2022-08-27T17:18:58Z,low,low,15.43,15.43,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,ce1200f0-70d9-4e5f-a0fb-d50196f9d287,2018-09-24T19:28:55Z,low,low,7.36,7.36,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,05ed583b-5dbc-4182-98d0-94c3dd76d5af,2016-02-14T13:29:18Z,low,low,9.97,9.97,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,cb73d39d-3ce7-40cc-9b62-0435d624904a,2017-09-16T05:18:10Z,low,low,15.38,15.38,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,9ffdd62c-c4dc-401d-89ef-cbd14921e5d4,2022-03-13T11:26:53Z,low,low,13.89,13.89,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,48099ef8-4655-4d4c-ae14-027935e6d46b,2021-04-07T21:29:52Z,low,low,17.82,17.82,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,168d8964-6f1e-44b5-9e1f-c3ac7bcad634,2019-01-23T03:25:47Z,low,low,16.03,16.03,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,ca0b8cf8-471b-4c78-a29a-fbb29d9de983,2021-12-12T15:57:54Z,low,low,8.14,8.14,0.0,low->low,[],[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,5927a685-482b-427b-8e20-08a26115128b,2021-02-24T05:37:16Z,low,low,10.94,10.94,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,a8792957-ee51-44ef-b9f1-6e894cf6d6aa,2025-07-27T20:17:21Z,low,low,7.51,7.51,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,1622c023-236d-4665-92be-53dd35bd30dd,2020-02-17T23:16:08Z,low,low,10.96,10.96,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,cd3ef55a-6fb1-4cc9-9d69-06814d5d4637,2021-04-02T22:40:36Z,low,low,2.83,2.83,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,d806773a-1044-4e0e-bfe5-b4a4d98f4ee8,2022-06-25T14:11:07Z,low,low,14.6,14.6,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,52221700-c258-412e-aedd-0925b39fb40f,2017-09-23T03:30:31Z,low,low,19.36,19.36,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,5e2949c0-3944-4263-b534-a62cdd803bbf,2019-11-11T13:53:15Z,low,low,6.22,6.22,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,51b63168-4068-4d65-8a25-c9777d32f8a4,2025-04-17T09:00:34Z,low,low,9.79,9.79,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,6384033d-b145-4974-ab31-cd22f4922448,2024-04-15T19:28:16Z,low,low,8.79,8.79,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,dc467b27-9dc8-406e-a6f0-506bb9dc23e8,2025-06-06T11:20:43Z,low,low,16.65,16.65,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,7c4c1985-4e05-47ef-93ee-ba590aa5d1b4,2021-03-07T12:52:59Z,low,low,19.9,19.9,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,a1783b77-7063-47ae-8305-6c2357c32e9e,2015-06-05T11:56:45Z,low,low,8.0,8.0,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,8a6aa6b0-f7b6-474e-ae59-d83d2ca0d183,2021-07-21T12:30:20Z,low,low,4.53,4.53,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,c138bdcb-ad62-4514-bae9-3c7ef64a8e37,2022-12-18T04:18:59Z,low,low,1.12,1.12,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,ecba9fd8-65d9-473a-857a-8ec3711db676,2025-12-09T09:53:31Z,low,low,0.15,0.15,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,23d73164-9c8e-4844-84bf-fe1d1c828b80,2024-05-21T00:32:51Z,low,low,9.7,9.7,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,1214f57e-ebac-4822-aaf8-a7c0e0c28acd,2020-03-15T11:30:00Z,low,low,12.88,12.88,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,4313a161-1eb6-44c8-a98f-a11aeeac073e,2017-06-14T18:00:49Z,low,low,8.64,8.64,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,cac1bba4-d116-4808-8a8f-e201f51aa3a3,2019-11-12T09:15:00Z,low,low,4.22,4.22,0.0,low->low,[],"[""possible_sarcasm""]",[]
+2026-03-02T12:00:00Z,00ed6e7c-d574-4acf-b900-7f4abeffc317,2016-02-13T03:14:42Z,low,low,20.97,20.97,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,0d03acb9-e1e9-4cbd-9061-d40ac050ebaf,2023-03-20T21:57:05Z,low,low,2.87,2.87,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,9dc5e13b-cc29-4f20-ae4a-4fa975630694,2022-05-12T04:42:53Z,low,low,12.73,12.73,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,1b220146-b8a4-4a81-a01d-0c72f025db3e,2025-09-08T20:28:09Z,low,low,0.39,0.39,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,3da944f6-cdd1-403c-8d8e-270ef1bc5e02,2021-04-01T12:57:33Z,low,low,11.84,11.84,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,867509fc-fdec-4f7a-a78e-96c9b5b51b98,2016-07-01T14:52:50Z,low,low,9.59,9.59,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,26ab5576-e09f-4beb-863e-d8b858e82a76,2025-10-12T23:19:33Z,low,low,20.3,20.3,0.0,low->low,[],[],"[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,77fdafa4-db6b-4aba-918e-f62020550ec5,2018-04-15T01:36:06Z,low,low,12.8,12.8,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,cb61b3c2-5d00-4f6a-a528-072f0d0eb39b,2015-06-29T21:48:42Z,low,low,15.0,15.0,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,52fb8f82-0a3e-40ac-aaa5-4052c3c088dd,2019-01-27T21:43:02Z,medium,medium,26.01,26.01,0.0,medium->medium,[],[],[]
+2026-03-02T12:00:00Z,d9449d0b-0f24-4176-b89a-63dbb4d6800d,2018-05-03T18:22:00Z,low,low,12.75,12.75,0.0,low->low,[],"[""possible_quote""]",[]
+2026-03-02T12:00:00Z,b47a6740-ee6f-477e-909f-6057c8e60f08,2024-07-23T00:12:15Z,low,low,0.0,0.0,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,02cd7306-d16b-47f9-882a-f92fc6a08499,2026-02-03T12:07:15Z,low,low,15.0,15.0,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,cb1ae94d-485e-4fd2-8ae2-a1008e353c27,2023-08-03T13:58:32Z,low,low,8.5,18.1,9.6,low->low,"[""age verification""]",[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,d284254b-7daf-4390-a378-d69216ea754a,2023-05-05T10:11:24Z,low,low,6.75,6.75,0.0,low->low,[],[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,204b5dd3-9c7f-46ce-86a8-2270b225727c,2025-04-16T06:45:41Z,low,low,7.79,7.79,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,97464533-d351-4025-b5a9-9e3de4709c67,2021-11-30T10:57:16Z,low,low,4.17,4.17,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,4371f32b-1abd-4f99-8304-f3d29bf721a2,2022-02-23T16:20:35Z,low,low,3.94,3.94,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,cc42d291-84b5-458f-97cb-7080ab5830a6,2018-01-20T00:15:46Z,low,low,8.04,8.04,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,00439a99-dc04-4a8f-9961-909180699072,2025-09-30T11:16:42Z,low,low,4.34,4.34,0.0,low->low,[],[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,9cee763e-e27b-42b0-9bcf-48a17f1c1a51,2017-03-30T20:57:56Z,low,low,8.84,8.84,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,c5e1305b-1edb-453b-bb3b-0337aa41b552,2019-09-15T02:36:47Z,low,low,6.38,6.38,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,1c16eda8-1d54-4756-8858-a61d005f24a8,2023-12-19T06:06:34Z,low,low,2.12,2.12,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,5ede274e-556b-4afb-b91e-6df8a55fec84,2025-06-20T15:23:00Z,low,low,13.61,13.61,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,9ab36d7b-3875-47dc-bfa7-43d35e7dda0b,2022-05-30T13:34:33Z,low,low,3.67,3.67,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,b5861022-4dcf-47ba-a986-6e2c4f1ef139,2018-07-11T05:32:46Z,low,low,14.56,14.56,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,b3ce07ca-9af2-43a5-84d0-7203aab0526b,2017-04-14T10:56:33Z,low,low,16.81,16.81,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,b5847450-ef89-46ea-bea7-cc4278b8c39f,2017-09-30T19:56:18Z,low,low,8.34,8.34,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,15bdda15-152e-4167-9fc2-2118426e9f34,2019-03-29T11:08:24Z,low,low,11.85,11.85,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,7c08eb2c-c02e-4710-805e-5f5ec20c17b7,2016-11-09T17:02:54Z,low,low,19.23,19.23,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,5d5fdefd-e041-405f-93b9-0e5c94f5a910,2021-07-08T02:21:46Z,low,low,4.57,4.57,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,72cefd95-9a96-4531-b89d-fd3aa17036da,2019-11-23T06:44:33Z,low,low,11.19,11.19,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,d05d6b01-cb8a-4d33-bf4c-77a95f627745,2020-10-12T21:52:09Z,low,low,16.3,16.3,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,7f00519b-9e77-4d5c-986e-28c11b93b36f,2021-06-29T07:11:32Z,low,low,9.59,9.59,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,0909e31a-be92-4a1e-b35c-8246809c77ba,2019-08-23T23:03:50Z,low,low,18.44,18.44,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,5eb73bdf-3a5f-4658-b191-7c8d2f078395,2022-05-25T12:53:39Z,low,low,3.69,3.69,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,f896d990-e563-4c2e-9292-64a2ec0b8eb0,2023-08-07T17:20:29Z,low,low,7.48,7.48,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,28fd27d6-d0e8-4b34-8247-888daeddd7f7,2019-05-10T12:44:53Z,low,low,6.73,6.73,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,ffcd0211-fbba-4b46-9444-a9eb47750e18,2020-02-20T05:25:36Z,low,low,5.95,5.95,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,0e89ca9b-ba9d-4dc1-a1fa-6dbce2bc0227,2017-12-08T20:22:57Z,low,low,8.15,8.15,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,3dea4a10-42c4-48d1-803f-be041045a79a,2017-11-10T17:46:03Z,low,low,8.23,8.23,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,6cee6c32-2153-4c3b-a905-6c717e19c69b,2021-06-12T20:34:04Z,low,low,10.64,10.64,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,9dfda7d7-181c-4a30-8226-5b16ce5d9f22,2025-04-27T05:50:28Z,low,low,8.76,8.76,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,15e677cc-864e-43a7-89f4-f5ca2b73e486,2018-12-30T10:08:37Z,low,low,15.09,15.09,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,00b108ce-3c3c-4a3f-9cb3-4a4c5558f1c2,2024-02-27T09:16:05Z,low,low,1.93,1.93,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,87c4b935-674e-42d6-8e56-e5e456bdf354,2024-02-15T00:07:44Z,low,low,1.96,1.96,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,5194965a-6d18-4d21-82a7-3fd8e28b77fc,2025-06-18T12:41:52Z,low,low,0.62,0.62,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,692089b1-995c-4550-a8ce-f1d58756e71c,2017-07-20T03:36:27Z,low,low,6.54,6.54,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,d73a9cd3-e90c-4b79-a7c8-f8969689104b,2019-11-09T12:13:15Z,low,low,6.23,6.23,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,e274d174-476a-447a-b895-7a1ba7c0a5db,2022-01-20T10:00:00Z,low,low,12.03,12.03,0.0,low->low,[],"[""possible_ambiguity"", ""possible_political_term_non_political""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,7520ba04-2aa9-40ec-a724-4f31ec9454b1,2015-11-08T13:46:00Z,low,low,17.0,17.0,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,de1f981c-a14a-4308-8e6e-a8b9e93dc471,2016-05-12T12:44:30Z,low,low,9.73,9.73,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,8668ef79-0f81-4bbd-b23d-a60d50d8042d,2020-08-13T18:59:53Z,low,low,5.47,5.47,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,ca7e9e7f-0af4-46ec-82f4-1bbacfbcf172,2018-05-17T09:04:49Z,low,low,22.72,22.72,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,17670b89-cced-47d6-811a-cd665676ec18,2022-04-24T14:26:26Z,low,low,3.77,3.77,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,410b90ba-1c1e-468c-a80d-811cd7779a8e,2019-01-30T11:17:17Z,low,low,15.01,15.01,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,67de8540-4ca2-4128-8914-c97faa70e290,2016-07-14T01:39:46Z,low,low,16.56,16.56,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,706e0a25-a2ff-4811-8167-f14dc0275d31,2025-01-25T21:26:55Z,low,low,1.01,1.01,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,d7648a28-acb1-482e-9b6e-c2b4322d9bb1,2019-09-03T06:56:21Z,low,low,18.42,18.42,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,cb6469ce-acb7-4250-abea-9e368eb632cc,2023-07-20T13:17:00Z,low,low,2.53,2.53,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,2d63e04d-85ee-4842-8f53-69e8ac1335fe,2022-09-06T20:44:56Z,low,low,3.4,3.4,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,67041a0c-73f8-4ade-ba45-c7856c6c9493,2018-12-29T19:28:35Z,low,low,13.09,13.09,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,75b26415-2c1e-41f4-865e-25a31a6c4497,2017-01-29T12:27:00Z,low,low,9.01,9.01,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,eb1aba69-993b-4847-a8f5-ccb69b556a56,2022-03-22T17:58:41Z,low,low,13.86,13.86,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,32db2d2a-d7a8-43e6-af81-688c4f32af9b,2017-05-05T00:20:19Z,low,low,13.75,13.75,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,cea7593f-1f89-4548-9e07-e0dadf1f1c88,2019-05-16T18:09:21Z,low,low,6.72,6.72,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,e5198933-0a3b-4eb7-a46b-1d7e0fd6a6b4,2018-08-11T01:36:16Z,low,low,13.48,13.48,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,34de973e-50e5-483b-aff6-d6d2291ee0b2,2015-10-12T17:49:39Z,low,low,19.0,19.0,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,69955bb5-d5e3-446a-ad1c-e2549a1e64e6,2016-02-08T12:25:01Z,low,low,13.98,13.98,0.0,low->low,[],[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,81147bd1-0436-4bca-bfed-568bad0ee46a,2018-10-18T23:35:55Z,low,low,15.29,15.29,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,839548cf-c937-4db0-924f-8d75fb9b7985,2019-05-30T13:26:43Z,low,low,17.68,17.68,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,ddd021c2-b276-4696-9326-671d44a2970c,2024-10-05T08:00:00Z,low,low,5.32,22.92,17.6,low->low,"[""ai chatbots"", ""age verification""]",[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,197227f1-c7fa-4645-bbb8-d05000e77d49,2016-03-26T18:24:48Z,low,low,22.85,22.85,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,d7d6997e-b872-4807-b3eb-686ed7153290,2024-01-10T18:22:12Z,low,low,10.06,10.06,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,19ed025b-70ca-4a6a-8538-d0e1817d83ea,2019-12-19T13:33:01Z,low,low,18.12,18.12,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,aa248381-6e2e-428a-abc3-1f800f33dca2,2016-08-13T20:13:41Z,low,medium,15.47,25.07,9.6,low->medium,"[""age verification""]",[],"[{""topic_names"": [""online_safety""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,42ebbf6c-ec86-494c-b666-a52b43c5caac,2025-11-30T00:41:26Z,low,low,16.17,16.17,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,25432089-99bb-4918-a7f5-6d6600bd86c7,2025-07-15T16:51:56Z,low,low,0.55,0.55,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,b0a68dcc-ac4b-47b1-a0d5-bae0314993e4,2019-10-23T18:01:10Z,low,low,6.28,6.28,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,13d9acab-03f8-474a-a1ea-e64da5c34873,2020-05-03T14:10:40Z,low,low,5.75,5.75,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,f8641922-9391-4f08-9b2c-50e9cd51cd4f,2025-05-22T02:35:20Z,low,low,0.7,0.7,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,b43d653e-4b95-449e-9489-352177accb3c,2017-08-19T07:40:00Z,low,low,23.46,23.46,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,4c176cc3-c25a-4dea-a326-3c48fba105ef,2016-02-22T03:38:42Z,low,low,22.95,22.95,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,f7025db2-a717-4f28-b458-b5660795ca43,2019-11-23T06:32:40Z,low,low,6.19,6.19,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,bbfc3e46-883c-4d3d-bc8d-f237cf81acd6,2024-06-07T19:06:35Z,low,low,1.65,1.65,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,3fa0a894-daa4-42e7-bd16-e276d35d30f5,2020-02-15T06:55:19Z,low,low,5.96,5.96,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,da08b0b7-9b16-48cb-8dd4-3dc93cd5267d,2019-01-18T21:49:25Z,low,low,12.04,12.04,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,a9f55695-1aff-4a9d-83fa-ee2646dd9383,2017-12-26T11:41:53Z,low,low,13.1,13.1,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,f3315e01-a3b5-4313-97f0-7c754f432e90,2021-10-24T07:46:04Z,low,low,2.27,2.27,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,e2bbda0e-923f-4c64-ba28-07108d522dd8,2020-12-07T09:17:59Z,low,low,18.15,18.15,0.0,low->low,[],"[""possible_ambiguity""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,6ac057d3-d2b6-4006-8767-65c0dd4d1ce7,2024-08-17T13:27:07Z,low,low,0.0,0.0,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,d25720cf-e502-4320-9bd2-25dd5d73e22a,2022-01-11T19:56:42Z,low,low,2.05,2.05,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,36efc4fd-ffef-4bf2-9ff0-fb29f627f2bb,2022-02-09T15:31:29Z,low,low,11.98,11.98,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,dfb836c3-5342-406c-b309-bde3bc8628ae,2025-10-19T09:57:28Z,low,low,15.28,15.28,0.0,low->low,[],[],"[{""topic_names"": [""finance""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,243e16a0-c1cb-4bcd-ae32-50a650545070,2020-05-21T15:56:02Z,low,low,5.7,5.7,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,c71c8366-5b76-4153-83d0-1a889a4bbfdd,2018-04-08T01:53:45Z,low,low,14.82,14.82,0.0,low->low,[],[],"[{""topic_names"": [""drugs""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,76e3a7c7-f9a9-4057-aa77-bba0bcc9aa1c,2025-06-17T13:17:54Z,low,low,0.62,0.62,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,1be5b31c-59b2-4cc2-bd65-97a224bb45e9,2015-04-24T06:44:06Z,low,low,15.0,15.0,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,7e08380a-70de-4375-afda-7ca31ae4b44f,2016-02-14T02:10:00Z,low,low,22.97,22.97,0.0,low->low,[],"[""possible_ambiguity"", ""possible_political_term_non_political""]","[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,8a763f2d-88e7-4150-ae04-d6769cb69d6a,2019-11-06T20:24:02Z,low,low,22.24,22.24,0.0,low->low,[],[],"[{""topic_names"": [""legal""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,e3392008-d3a7-4d2e-a246-7c7fca8d76d9,2020-04-05T20:46:31Z,low,low,14.82,14.82,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,ee01c338-8d5b-476f-bc14-7cd0d9127c87,2019-06-12T03:14:01Z,medium,medium,26.64,26.64,0.0,medium->medium,[],[],"[{""topic_names"": [""violence""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,38ba69e4-8640-458e-9422-5b44048d3c88,2020-05-31T01:53:35Z,low,low,5.67,5.67,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,443c935f-6659-4dae-b102-b0d54f0fd17e,2017-08-08T15:41:37Z,low,low,6.48,6.48,0.0,low->low,[],[],[]
+2026-03-02T12:00:00Z,a90ea5e5-9e51-4f24-bc1c-107eb2193bfe,2018-11-24T06:07:27Z,low,low,15.19,15.19,0.0,low->low,[],[],"[{""topic_names"": [""politics""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,88a3920c-b9e2-4e11-9aca-07b76bd9cadc,2021-09-17T19:13:24Z,low,low,11.37,11.37,0.0,low->low,[],[],"[{""topic_names"": [""health_public""], ""explanation"": ""Matched topic keywords from config.""}]"
+2026-03-02T12:00:00Z,43da8e5a-1a92-4e87-947b-29ac6c3426c5,2019-05-01T03:24:38Z,low,low,15.76,15.76,0.0,low->low,[],[],[]

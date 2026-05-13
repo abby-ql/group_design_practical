@@ -1,0 +1,18 @@
+snapshot_date,term,volume,tone
+2016-06-24,brexit,95,-0.15
+2016-06-24,referendum,80,-0.05
+2016-06-24,parliament,40,0.0
+2020-03-20,coronavirus,100,-0.25
+2020-03-20,lockdown,98,-0.35
+2020-03-20,nhs,70,0.1
+2020-03-20,vaccine,20,0.05
+2021-09-01,vaccine,85,0.1
+2021-09-01,booster,78,0.05
+2021-09-01,nhs,55,0.08
+2024-10-05,deepfake,72,-0.1
+2024-10-05,online safety,68,0.02
+2024-10-05,ai chatbots,60,0.0
+2026-03-02,ai chatbots,75,0.0
+2026-03-02,age verification,65,0.02
+2026-03-02,content moderation,55,-0.05
+2026-03-02,iran,70,-0.2
